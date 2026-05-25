@@ -49,7 +49,7 @@ YES
 **Input:**
 
 ```text
-itics50
+newcomers
 ```
 
 **Output:**
