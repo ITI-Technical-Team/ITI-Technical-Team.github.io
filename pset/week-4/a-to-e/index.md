@@ -63,7 +63,7 @@ NO
 Make sure you are in the `a-to-e` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/4/a-to-e
+check50 iti-technical-team/problemset/pset/4/a-to-e
 ```
 
 ## Submit Your Code
@@ -71,5 +71,5 @@ check50 iti-technical-team/problemset/2026/4/a-to-e
 Make sure you are in the `a-to-e` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/4/a-to-e
+submit50 iti-technical-team/problemset/pset/4/a-to-e
 ```

@@ -55,7 +55,7 @@ Print the integers in the sequence in the order they were received.
 Make sure you are in the `dynamic-array` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/7/dynamic-array
+check50 iti-technical-team/problemset/pset/7/dynamic-array
 ```
 
 ## Submit Your Code
@@ -63,5 +63,5 @@ check50 iti-technical-team/problemset/2026/7/dynamic-array
 Make sure you are in the `dynamic-array` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/7/dynamic-array
+submit50 iti-technical-team/problemset/pset/7/dynamic-array
 ```

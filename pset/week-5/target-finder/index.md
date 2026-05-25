@@ -55,7 +55,7 @@ YES
 Make sure you are in the `target-finder` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/5/target-finder
+check50 iti-technical-team/problemset/pset/5/target-finder
 ```
 
 ## Submit Your Code
@@ -63,5 +63,5 @@ check50 iti-technical-team/problemset/2026/5/target-finder
 Make sure you are in the `target-finder` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/5/target-finder
+submit50 iti-technical-team/problemset/pset/5/target-finder
 ```

@@ -50,7 +50,7 @@ PortSaid
 Make sure you are in the `length` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/4/length
+check50 iti-technical-team/problemset/pset/4/length
 ```
 
 ## Submit Your Code
@@ -58,5 +58,5 @@ check50 iti-technical-team/problemset/2026/4/length
 Make sure you are in the `length` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/4/length
+submit50 iti-technical-team/problemset/pset/4/length
 ```

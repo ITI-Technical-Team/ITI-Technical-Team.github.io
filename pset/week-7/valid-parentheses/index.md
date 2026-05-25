@@ -75,7 +75,7 @@ YES
 Make sure you are in the `valid-parentheses` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/7/valid-parentheses
+check50 iti-technical-team/problemset/pset/7/valid-parentheses
 ```
 
 ## Submit Your Code
@@ -83,5 +83,5 @@ check50 iti-technical-team/problemset/2026/7/valid-parentheses
 Make sure you are in the `valid-parentheses` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/7/valid-parentheses
+submit50 iti-technical-team/problemset/pset/7/valid-parentheses
 ```

@@ -72,7 +72,7 @@ Output:
 Make sure you are in the `operations` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/1/operations
+check50 iti-technical-team/problemset/pset/1/operations
 ```
 
 ## Submit Your Code
@@ -80,5 +80,5 @@ check50 iti-technical-team/problemset/2026/1/operations
 Make sure you are in the `operations` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/1/operations
+submit50 iti-technical-team/problemset/pset/1/operations
 ```

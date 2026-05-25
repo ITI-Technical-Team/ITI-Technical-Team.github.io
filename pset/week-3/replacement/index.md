@@ -62,7 +62,7 @@ Print the array after the replacement.
 Make sure you are in the `replacement` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/week3/2026/3/replacement
+check50 iti-technical-team/week3/pset/3/replacement
 ```
 
 ## Submit Your Code
@@ -70,5 +70,5 @@ check50 iti-technical-team/week3/2026/3/replacement
 Make sure you are in the `replacement` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/week3/2026/3/replacement
+submit50 iti-technical-team/week3/pset/3/replacement
 ```

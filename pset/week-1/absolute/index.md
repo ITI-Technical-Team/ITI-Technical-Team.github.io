@@ -71,7 +71,7 @@ Output:
 Make sure you are in the `absolute` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/1/absolute
+check50 iti-technical-team/problemset/pset/1/absolute
 ```
 
 ## Submit Your Code
@@ -79,5 +79,5 @@ check50 iti-technical-team/problemset/2026/1/absolute
 Make sure you are in the `absolute` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/1/absolute
+submit50 iti-technical-team/problemset/pset/1/absolute
 ```

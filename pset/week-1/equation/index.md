@@ -41,7 +41,7 @@ Output:
 Make sure you are in the `equation` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/1/equation
+check50 iti-technical-team/problemset/pset/1/equation
 ```
 
 ## Submit Your Code
@@ -49,5 +49,5 @@ check50 iti-technical-team/problemset/2026/1/equation
 Make sure you are in the `equation` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/1/equation
+submit50 iti-technical-team/problemset/pset/1/equation
 ```

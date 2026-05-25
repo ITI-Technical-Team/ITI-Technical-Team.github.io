@@ -85,7 +85,7 @@ Print the **position** of \\(X\\) in the first time you find it. If it doesn't *
 Make sure you are in the `linear-search` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/5/linear-search
+check50 iti-technical-team/problemset/pset/5/linear-search
 ```
 
 ## Submit Your Code
@@ -93,5 +93,5 @@ check50 iti-technical-team/problemset/2026/5/linear-search
 Make sure you are in the `linear-search` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/5/linear-search
+submit50 iti-technical-team/problemset/pset/5/linear-search
 ```

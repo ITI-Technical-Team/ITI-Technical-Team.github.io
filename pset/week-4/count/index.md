@@ -67,7 +67,7 @@ In the first example, the character 'l' appears twice in "hello".
 Make sure you are in the `count` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/4/count
+check50 iti-technical-team/problemset/pset/4/count
 ```
 
 ## Submit Your Code
@@ -75,5 +75,5 @@ check50 iti-technical-team/problemset/2026/4/count
 Make sure you are in the `count` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/4/count
+submit50 iti-technical-team/problemset/pset/4/count
 ```

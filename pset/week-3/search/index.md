@@ -60,7 +60,7 @@ notfound
 Make sure you are in the `search` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/week3/2026/3/search
+check50 iti-technical-team/week3/pset/3/search
 ```
 
 ## Submit Your Code
@@ -68,5 +68,5 @@ check50 iti-technical-team/week3/2026/3/search
 Make sure you are in the `search` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/week3/2026/3/search
+submit50 iti-technical-team/week3/pset/3/search
 ```

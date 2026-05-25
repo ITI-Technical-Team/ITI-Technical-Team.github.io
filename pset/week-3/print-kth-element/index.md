@@ -62,7 +62,7 @@ Print the \\(k\\)th element of array.
 Make sure you are in the `print-kth-element` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/week3/2026/3/print-kth-element
+check50 iti-technical-team/week3/pset/3/print-kth-element
 ```
 
 # Submit Your Code
@@ -70,5 +70,5 @@ check50 iti-technical-team/week3/2026/3/print-kth-element
 Make sure you are in the `print-kth-element` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/week3/2026/3/print-kth-element
+submit50 iti-technical-team/week3/pset/3/print-kth-element
 ```

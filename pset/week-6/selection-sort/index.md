@@ -48,7 +48,7 @@ Print array \\(A\\) after sorting it in ascending order.
 Make sure you are in the `selection-sort` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/6/selection-sort
+check50 iti-technical-team/problemset/pset/6/selection-sort
 ```
 
 ## Submit Your Code
@@ -56,5 +56,5 @@ check50 iti-technical-team/problemset/2026/6/selection-sort
 Make sure you are in the `selection-sort` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/6/selection-sort
+submit50 iti-technical-team/problemset/pset/6/selection-sort
 ```

@@ -48,7 +48,7 @@ print the sum of the elements of this array.
 Make sure you are in the `easy-array` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/7/easy-array
+check50 iti-technical-team/problemset/pset/7/easy-array
 ```
 
 ## Submit Your Code
@@ -56,5 +56,5 @@ check50 iti-technical-team/problemset/2026/7/easy-array
 Make sure you are in the `easy-array` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/7/easy-array
+submit50 iti-technical-team/problemset/pset/7/easy-array
 ```
