@@ -31,12 +31,17 @@ Usage: `debug50 ./program command line args`
 #### `style50`
 
 Checks for alignment to the [CS50 style guide](https://cs50.readthedocs.io/style/c/)  
-Usage: `style50 program.c`
+Usage: `style50 program.cpp`
 
 #### `check50`
 
 Checks for correctness using test cases  
-Usage: `check50 cs50/problems/2018/ap/problem_name`
+Usage: `check50 iti-technical-team/problemset/pset/week_number/problem_name`
+
+#### `submit50`
+
+Submits your completed code  
+Usage: `submit50 iti-technical-team/problemset/pset/week_number/problem_name`
 
 ## Documentation
 
