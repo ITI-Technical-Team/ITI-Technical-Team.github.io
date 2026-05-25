@@ -67,7 +67,7 @@ NO
 Make sure you are in the `perfect-square` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/5/perfect-square
+check50 iti-technical-team/problemset/pset/5/perfect-square
 ```
 
 ## Submit Your Code
@@ -75,5 +75,5 @@ check50 iti-technical-team/problemset/2026/5/perfect-square
 Make sure you are in the `perfect-square` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/5/perfect-square
+submit50 iti-technical-team/problemset/pset/5/perfect-square
 ```

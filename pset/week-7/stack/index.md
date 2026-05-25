@@ -56,7 +56,7 @@ Empty!
 Make sure you are in the `stack` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/7/stack
+check50 iti-technical-team/problemset/pset/7/stack
 ```
 
 ## Submit Your Code
@@ -64,5 +64,5 @@ check50 iti-technical-team/problemset/2026/7/stack
 Make sure you are in the `stack` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/7/stack
+submit50 iti-technical-team/problemset/pset/7/stack
 ```

@@ -60,7 +60,7 @@ Output the summation of the array.
 Make sure you are in the `summation-2` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/week3/2026/3/summation-2
+check50 iti-technical-team/week3/pset/3/summation-2
 ```
 
 ## Submit Your Code
@@ -68,5 +68,5 @@ check50 iti-technical-team/week3/2026/3/summation-2
 Make sure you are in the `summation-2` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/week3/2026/3/summation-2
+submit50 iti-technical-team/week3/pset/3/summation-2
 ```

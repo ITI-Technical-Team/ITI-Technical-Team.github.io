@@ -67,7 +67,7 @@ For the first example: The maximum number of the array is 10, and it's divisible
 Make sure you are in the `maximum` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/7/maximum
+check50 iti-technical-team/problemset/pset/7/maximum
 ```
 
 ## Submit Your Code
@@ -75,5 +75,5 @@ check50 iti-technical-team/problemset/2026/7/maximum
 Make sure you are in the `maximum` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/7/maximum
+submit50 iti-technical-team/problemset/pset/7/maximum
 ```

@@ -56,7 +56,7 @@ Empty!
 Make sure you are in the `queue` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/7/queue
+check50 iti-technical-team/problemset/pset/7/queue
 ```
 
 ## Submit Your Code
@@ -64,5 +64,5 @@ check50 iti-technical-team/problemset/2026/7/queue
 Make sure you are in the `queue` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/7/queue
+submit50 iti-technical-team/problemset/pset/7/queue
 ```

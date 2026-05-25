@@ -55,7 +55,7 @@ NO
 Make sure you are in the `binary-search` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/5/binary-search
+check50 iti-technical-team/problemset/pset/5/binary-search
 ```
 
 ## Submit Your Code
@@ -63,5 +63,5 @@ check50 iti-technical-team/problemset/2026/5/binary-search
 Make sure you are in the `binary-search` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/5/binary-search
+submit50 iti-technical-team/problemset/pset/5/binary-search
 ```

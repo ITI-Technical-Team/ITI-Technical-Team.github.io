@@ -61,7 +61,7 @@ In the given example, you can defeat \\(1^{st}\\), \\(2^{nd}\\), and \\(4^{th}\\
 Make sure you are in the `monster-game` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/6/monster-game
+check50 iti-technical-team/problemset/pset/6/monster-game
 ```
 
 ## Submit Your Code
@@ -69,5 +69,5 @@ check50 iti-technical-team/problemset/2026/6/monster-game
 Make sure you are in the `monster-game` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/6/monster-game
+submit50 iti-technical-team/problemset/pset/6/monster-game
 ```

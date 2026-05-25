@@ -77,7 +77,7 @@ Print one integer: **the minimum absolute difference**
 Make sure you are in the `minimum-difference` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/6/minimum-difference
+check50 iti-technical-team/problemset/pset/6/minimum-difference
 ```
 
 ## Submit Your Code
@@ -85,5 +85,5 @@ check50 iti-technical-team/problemset/2026/6/minimum-difference
 Make sure you are in the `minimum-difference` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/6/minimum-difference
+submit50 iti-technical-team/problemset/pset/6/minimum-difference
 ```

@@ -46,7 +46,7 @@ Print array \\(A\\) in reverse order.
 Make sure you are in the `reverse-array` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/6/reverse-array
+check50 iti-technical-team/problemset/pset/6/reverse-array
 ```
 
 ## Submit Your Code
@@ -54,5 +54,5 @@ check50 iti-technical-team/problemset/2026/6/reverse-array
 Make sure you are in the `reverse-array` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/6/reverse-array
+submit50 iti-technical-team/problemset/pset/6/reverse-array
 ```

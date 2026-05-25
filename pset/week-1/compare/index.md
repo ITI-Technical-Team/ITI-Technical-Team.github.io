@@ -74,7 +74,7 @@ Less
 Make sure you are in the `compare` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/1/compare
+check50 iti-technical-team/problemset/pset/1/compare
 ```
 
 ## Submit Your Code
@@ -82,5 +82,5 @@ check50 iti-technical-team/problemset/2026/1/compare
 Make sure you are in the `compare` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/1/compare
+submit50 iti-technical-team/problemset/pset/1/compare
 ```

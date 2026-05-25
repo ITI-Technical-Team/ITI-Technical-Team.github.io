@@ -77,7 +77,7 @@ YES
 Make sure you are in the `palindrome` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/5/palindrome
+check50 iti-technical-team/problemset/pset/5/palindrome
 ```
 
 ## Submit Your Code
@@ -85,5 +85,5 @@ check50 iti-technical-team/problemset/2026/5/palindrome
 Make sure you are in the `palindrome` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/5/palindrome
+submit50 iti-technical-team/problemset/pset/5/palindrome
 ```

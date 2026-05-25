@@ -79,7 +79,7 @@ In the second example:
 Make sure you are in the `smallest-element` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/2026/6/smallest-element
+check50 iti-technical-team/problemset/pset/6/smallest-element
 ```
 
 ## Submit Your Code
@@ -87,5 +87,5 @@ check50 iti-technical-team/problemset/2026/6/smallest-element
 Make sure you are in the `smallest-element` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/2026/6/smallest-element
+submit50 iti-technical-team/problemset/pset/6/smallest-element
 ```
