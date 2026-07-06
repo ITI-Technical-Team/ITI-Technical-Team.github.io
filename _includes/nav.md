@@ -11,6 +11,19 @@
 * ### [**Problem Sets**](/pset)
 
 <details markdown="1">
+<summary><strong>Week 0</strong></summary>
+
+- [Day 1 Task 1]({{ "/pset/week-0/day1_task1" | relative_url }})
+- [Day 1 Task 2]({{ "/pset/week-0/day1_task2" | relative_url }})
+- [Day 1 Task 3]({{ "/pset/week-0/day1_task3" | relative_url }})
+- [Day 2 Task 1]({{ "/pset/week-0/day2_task1" | relative_url }})
+- [Day 2 Task 2]({{ "/pset/week-0/day2_task2" | relative_url }})
+- [Day 2 Task 3]({{ "/pset/week-0/day2_task3" | relative_url }})
+- [Day 2 Task 4]({{ "/pset/week-0/day2_task4" | relative_url }})
+
+</details>
+
+<details markdown="1">
 <summary><strong>Week 1</strong></summary>
 
 - [Hello]({{ "/pset/week-1/hello" | relative_url }})

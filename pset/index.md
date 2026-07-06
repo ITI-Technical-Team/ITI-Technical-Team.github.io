@@ -4,6 +4,15 @@ title: Problem Sets
 
 # Problem Sets
 
+## [Week 0]({{ "/pset/week-0" | relative_url }})
+* [Day 1 Task 1]({{ "/pset/week-0/day1_task1" | relative_url }})
+* [Day 1 Task 2]({{ "/pset/week-0/day1_task2" | relative_url }})
+* [Day 1 Task 3]({{ "/pset/week-0/day1_task3" | relative_url }})
+* [Day 2 Task 1]({{ "/pset/week-0/day2_task1" | relative_url }})
+* [Day 2 Task 2]({{ "/pset/week-0/day2_task2" | relative_url }})
+* [Day 2 Task 3]({{ "/pset/week-0/day2_task3" | relative_url }})
+* [Day 2 Task 4]({{ "/pset/week-0/day2_task4" | relative_url }})
+
 ## [Week 1]({{ "/pset/week-1" | relative_url }})
 * [A. Hello]({{ "/pset/week-1/hello" | relative_url }})
 * [B. Equation]({{ "/pset/week-1/equation" | relative_url }})
