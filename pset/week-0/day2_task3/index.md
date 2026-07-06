@@ -18,4 +18,4 @@ When called, this block should make the sprite **move (n) steps** and **wait one
 
 Please upload your `.sb3` file using the following form:
 
-[Day2 Task3 Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/1/day2_task3)
+[Day2 Task3 Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/0/day2_task3)

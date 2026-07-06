@@ -17,4 +17,4 @@ Create a Scratch project where the sprite counts and says the **even numbers fro
 
 Please upload your `.sb3` file using the following form:
 
-[Day2 Task1 Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/1/day2_task1)
+[Day2 Task1 Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/0/day2_task1)

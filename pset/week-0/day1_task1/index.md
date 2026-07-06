@@ -19,4 +19,4 @@ Make sure your sprite does something interesting using these blocks!
 
 Please upload your `.sb3` file using the following form:
 
-[Day1 Task1 Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/1/day1_task1)
+[Day1 Task1 Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/0/day1_task1)

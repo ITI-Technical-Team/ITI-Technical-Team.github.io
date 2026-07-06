@@ -17,4 +17,4 @@ Create a Scratch project that contains at least **one custom block (function)** 
 
 Please upload your `.sb3` file using the following form:
 
-[Day1 Task3 Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/1/day1_task3)
+[Day1 Task3 Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/0/day1_task3)

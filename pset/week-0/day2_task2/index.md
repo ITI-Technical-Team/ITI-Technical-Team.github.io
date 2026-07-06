@@ -19,4 +19,4 @@ Create a Scratch project with the following logic:
 
 Please upload your `.sb3` file using the following form:
 
-[Day2 Task2 Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/1/day2_task2)
+[Day2 Task2 Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/0/day2_task2)
