@@ -106,7 +106,13 @@
 <details markdown="1">
 <summary><strong>Week 8</strong></summary>
 
-- [Pset 8]({{ "/pset/week-8/pset-8" | relative_url }})
+- [Language Count]({{ "/pset/week-8/language-count" | relative_url }})
+- [Favorites]({{ "/pset/week-8/favorites" | relative_url }})
+- [City Africa]({{ "/pset/week-8/city-africa" | relative_url }})
+- [Continent Average]({{ "/pset/week-8/continent-avg" | relative_url }})
+- [Asia Sum]({{ "/pset/week-8/asia-sum" | relative_url }})
+- [No-Vowel City]({{ "/pset/week-8/no-vowel-city" | relative_url }})
+- [Vowel City]({{ "/pset/week-8/vowel-city" | relative_url }})
 
 </details>
 
