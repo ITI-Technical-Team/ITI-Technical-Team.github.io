@@ -64,3 +64,13 @@ title: Problem Sets
 * [D. Stack]({{ "/pset/week-7/stack" | relative_url }})
 * [E. Queue]({{ "/pset/week-7/queue" | relative_url }})
 * [F. Valid Parentheses]({{ "/pset/week-7/valid-parentheses" | relative_url }})
+
+## [Week 8]({{ "/pset/week-8" | relative_url }})
+* [A. Language Count]({{ "/pset/week-8/language-count" | relative_url }})
+* [B. Favorites]({{ "/pset/week-8/favorites" | relative_url }})
+* [C. City Africa]({{ "/pset/week-8/city-africa" | relative_url }})
+* [D. Continent Average]({{ "/pset/week-8/continent-avg" | relative_url }})
+* [E. Asia Sum]({{ "/pset/week-8/asia-sum" | relative_url }})
+* [F. No-Vowel City]({{ "/pset/week-8/no-vowel-city" | relative_url }})
+* [G. Vowel City]({{ "/pset/week-8/vowel-city" | relative_url }})
+
