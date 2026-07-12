@@ -10,21 +10,28 @@
 
 * ### [**Problem Sets**](/pset)
 
-<details markdown="1">
-<summary><strong>Week 0</strong></summary>
 
-- [Day 1 Task 1]({{ "/pset/week-0/day1_task1" | relative_url }})
-- [Day 1 Task 2]({{ "/pset/week-0/day1_task2" | relative_url }})
-- [Day 1 Task 3]({{ "/pset/week-0/day1_task3" | relative_url }})
-- [Day 2 Task 1]({{ "/pset/week-0/day2_task1" | relative_url }})
-- [Day 2 Task 2]({{ "/pset/week-0/day2_task2" | relative_url }})
-- [Day 2 Task 3]({{ "/pset/week-0/day2_task3" | relative_url }})
-- [Day 2 Task 4]({{ "/pset/week-0/day2_task4" | relative_url }})
+<details markdown="1">
+<summary><strong>Day 1 – Scratch</strong></summary>
+
+- [Task 1]({{ "/pset/week-0/day1_task1" | relative_url }})
+- [Task 2]({{ "/pset/week-0/day1_task2" | relative_url }})
+- [Task 3]({{ "/pset/week-0/day1_task3" | relative_url }})
 
 </details>
 
 <details markdown="1">
-<summary><strong>Week 1</strong></summary>
+<summary><strong>Day 2 – Scratch</strong></summary>
+
+- [Task 1]({{ "/pset/week-0/day2_task1" | relative_url }})
+- [Task 2]({{ "/pset/week-0/day2_task2" | relative_url }})
+- [Task 3]({{ "/pset/week-0/day2_task3" | relative_url }})
+- [Task 4]({{ "/pset/week-0/day2_task4" | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary><strong>Day 3 – C++ Basics</strong></summary>
 
 - [Hello]({{ "/pset/week-1/hello" | relative_url }})
 - [Equation]({{ "/pset/week-1/equation" | relative_url }})
@@ -35,7 +42,7 @@
 </details>
 
 <details markdown="1">
-<summary><strong>Week 2</strong></summary>
+<summary><strong>Day 4 – C++ Basics</strong></summary>
 
 - [Hashes]({{ "/pset/week-2/hashes" | relative_url }})
 - [Summation]({{ "/pset/week-2/summation" | relative_url }})
@@ -45,7 +52,7 @@
 </details>
 
 <details markdown="1">
-<summary><strong>Week 3</strong></summary>
+<summary><strong>Day 5 – Arrays</strong></summary>
 
 - [Print K-th Element]({{ "/pset/week-3/print-kth-element" | relative_url }})
 - [Array Summation]({{ "/pset/week-3/summation-2" | relative_url }})
@@ -56,7 +63,7 @@
 </details>
 
 <details markdown="1">
-<summary><strong>Week 4</strong></summary>
+<summary><strong>Day 6 – Strings</strong></summary>
 
 - [Length]({{ "/pset/week-4/length" | relative_url }})
 - [String Compare]({{ "/pset/week-4/string-compare" | relative_url }})
@@ -67,7 +74,7 @@
 </details>
 
 <details markdown="1">
-<summary><strong>Week 5</strong></summary>
+<summary><strong>Day 7 – Algorithms</strong></summary>
 
 - [Linear Search]({{ "/pset/week-5/linear-search" | relative_url }})
 - [Binary Search]({{ "/pset/week-5/binary-search" | relative_url }})
@@ -78,7 +85,7 @@
 </details>
 
 <details markdown="1">
-<summary><strong>Week 6</strong></summary>
+<summary><strong>Day 8 – Algorithms</strong></summary>
 
 - [Smallest Element]({{ "/pset/week-6/smallest-element" | relative_url }})
 - [Minimum Difference]({{ "/pset/week-6/minimum-difference" | relative_url }})
@@ -92,7 +99,7 @@
 </details>
 
 <details markdown="1">
-<summary><strong>Week 7</strong></summary>
+<summary><strong>Day 9 – DSA</strong></summary>
 
 - [Dynamic Array]({{ "/pset/week-7/dynamic-array" | relative_url }})
 - [Maximum]({{ "/pset/week-7/maximum" | relative_url }})
@@ -104,10 +111,16 @@
 </details>
 
 <details markdown="1">
-<summary><strong>Week 8</strong></summary>
+<summary><strong>Day 10 – Python & CSV</strong></summary>
 
 - [Language Count]({{ "/pset/week-8/language-count" | relative_url }})
 - [Favorites]({{ "/pset/week-8/favorites" | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary><strong>Day 11 – SQL</strong></summary>
+
 - [City Africa]({{ "/pset/week-8/city-africa" | relative_url }})
 - [Continent Average]({{ "/pset/week-8/continent-avg" | relative_url }})
 - [Asia Sum]({{ "/pset/week-8/asia-sum" | relative_url }})
@@ -117,14 +130,14 @@
 </details>
 
 <details markdown="1">
-<summary><strong>Week 9</strong></summary>
+<summary><strong>Day 12</strong></summary>
 
 - [Pset 9]({{ "/pset/week-9/pset-9" | relative_url }})
 
 </details>
 
 <details markdown="1">
-<summary><strong>Week 10</strong></summary>
+<summary><strong>Day 13</strong></summary>
 
 - [Pset 10]({{ "/pset/week-10/pset-10" | relative_url }})
 
