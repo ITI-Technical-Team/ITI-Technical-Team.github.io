@@ -12,134 +12,164 @@
 
 
 <details markdown="1">
-<summary><strong>Day 1 – Scratch</strong></summary>
+<summary><strong>Day 1 – Scratch I</strong></summary>
 
-- [Task 1]({{ "/pset/week-0/day1_task1" | relative_url }})
-- [Task 2]({{ "/pset/week-0/day1_task2" | relative_url }})
-- [Task 3]({{ "/pset/week-0/day1_task3" | relative_url }})
-
-</details>
-
-<details markdown="1">
-<summary><strong>Day 2 – Scratch</strong></summary>
-
-- [Task 1]({{ "/pset/week-0/day2_task1" | relative_url }})
-- [Task 2]({{ "/pset/week-0/day2_task2" | relative_url }})
-- [Task 3]({{ "/pset/week-0/day2_task3" | relative_url }})
-- [Task 4]({{ "/pset/week-0/day2_task4" | relative_url }})
+- [Task 1]({{ "/pset/day-1/day1_task1" | relative_url }})
+- [Task 2]({{ "/pset/day-1/day1_task2" | relative_url }})
+- [Task 3]({{ "/pset/day-1/day1_task3" | relative_url }})
 
 </details>
 
 <details markdown="1">
-<summary><strong>Day 3 – C++ Basics</strong></summary>
+<summary><strong>Day 2 – Scratch II</strong></summary>
 
-- [Hello]({{ "/pset/week-1/hello" | relative_url }})
-- [Equation]({{ "/pset/week-1/equation" | relative_url }})
-- [Compare]({{ "/pset/week-1/compare" | relative_url }})
-- [Operations]({{ "/pset/week-1/operations" | relative_url }})
-- [Absolute]({{ "/pset/week-1/absolute" | relative_url }})
+- [Task 1]({{ "/pset/day-2/day2_task1" | relative_url }})
+- [Task 2]({{ "/pset/day-2/day2_task2" | relative_url }})
+- [Task 3]({{ "/pset/day-2/day2_task3" | relative_url }})
+- [Task 4]({{ "/pset/day-2/day2_task4" | relative_url }})
 
 </details>
 
 <details markdown="1">
-<summary><strong>Day 4 – C++ Basics</strong></summary>
+<summary><strong>Day 3 – C++ Basics I</strong></summary>
 
-- [Hashes]({{ "/pset/week-2/hashes" | relative_url }})
-- [Summation]({{ "/pset/week-2/summation" | relative_url }})
-- [Numbers]({{ "/pset/week-2/numbers" | relative_url }})
-- [Triangle]({{ "/pset/week-2/triangle" | relative_url }})
+- [Hello]({{ "/pset/day-3/hello" | relative_url }})
+- [Equation]({{ "/pset/day-3/equation" | relative_url }})
+- [Compare]({{ "/pset/day-3/compare" | relative_url }})
+- [Operations]({{ "/pset/day-3/operations" | relative_url }})
+- [Absolute]({{ "/pset/day-3/absolute" | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary><strong>Day 4 – C++ Basics II</strong></summary>
+
+- [Hashes]({{ "/pset/day-4/hashes" | relative_url }})
+- [Summation]({{ "/pset/day-4/summation" | relative_url }})
+- [Numbers]({{ "/pset/day-4/numbers" | relative_url }})
+- [Triangle]({{ "/pset/day-4/triangle" | relative_url }})
 
 </details>
 
 <details markdown="1">
 <summary><strong>Day 5 – Arrays</strong></summary>
 
-- [Print K-th Element]({{ "/pset/week-3/print-kth-element" | relative_url }})
-- [Array Summation]({{ "/pset/week-3/summation-2" | relative_url }})
-- [Search]({{ "/pset/week-3/search" | relative_url }})
-- [Replacement]({{ "/pset/week-3/replacement" | relative_url }})
-- [Minimum]({{ "/pset/week-3/minimum" | relative_url }})
+- [Print K-th Element]({{ "/pset/day-5/print-kth-element" | relative_url }})
+- [Array Summation]({{ "/pset/day-5/summation-2" | relative_url }})
+- [Search]({{ "/pset/day-5/search" | relative_url }})
+- [Replacement]({{ "/pset/day-5/replacement" | relative_url }})
+- [Minimum]({{ "/pset/day-5/minimum" | relative_url }})
 
 </details>
 
 <details markdown="1">
 <summary><strong>Day 6 – Strings</strong></summary>
 
-- [Length]({{ "/pset/week-4/length" | relative_url }})
-- [String Compare]({{ "/pset/week-4/string-compare" | relative_url }})
-- [One String]({{ "/pset/week-4/one-string" | relative_url }})
-- [Count]({{ "/pset/week-4/count" | relative_url }})
-- [A to E]({{ "/pset/week-4/a-to-e" | relative_url }})
+- [Length]({{ "/pset/day-6/length" | relative_url }})
+- [String Compare]({{ "/pset/day-6/string-compare" | relative_url }})
+- [One String]({{ "/pset/day-6/one-string" | relative_url }})
+- [Count]({{ "/pset/day-6/count" | relative_url }})
+- [A to E]({{ "/pset/day-6/a-to-e" | relative_url }})
 
 </details>
 
 <details markdown="1">
-<summary><strong>Day 7 – Algorithms</strong></summary>
+<summary><strong>Day 7 – Algorithms I</strong></summary>
 
-- [Linear Search]({{ "/pset/week-5/linear-search" | relative_url }})
-- [Binary Search]({{ "/pset/week-5/binary-search" | relative_url }})
-- [Perfect Square]({{ "/pset/week-5/perfect-square" | relative_url }})
-- [Target Finder]({{ "/pset/week-5/target-finder" | relative_url }})
-- [Palindrome]({{ "/pset/week-5/palindrome" | relative_url }})
+- [Linear Search]({{ "/pset/day-7/linear-search" | relative_url }})
+- [Binary Search]({{ "/pset/day-7/binary-search" | relative_url }})
+- [Perfect Square]({{ "/pset/day-7/perfect-square" | relative_url }})
+- [Target Finder]({{ "/pset/day-7/target-finder" | relative_url }})
+- [Palindrome]({{ "/pset/day-7/palindrome" | relative_url }})
 
 </details>
 
 <details markdown="1">
-<summary><strong>Day 8 – Algorithms</strong></summary>
+<summary><strong>Day 8 – Algorithms II</strong></summary>
 
-- [Smallest Element]({{ "/pset/week-6/smallest-element" | relative_url }})
-- [Minimum Difference]({{ "/pset/week-6/minimum-difference" | relative_url }})
-- [Monster Game]({{ "/pset/week-6/monster-game" | relative_url }})
-- [Bubble Sort]({{ "/pset/week-6/bubble-sort" | relative_url }})
-- [Selection Sort]({{ "/pset/week-6/selection-sort" | relative_url }})
-- [Insertion Sort]({{ "/pset/week-6/insertion-sort" | relative_url }})
-- [Reverse Array]({{ "/pset/week-6/reverse-array" | relative_url }})
-- [Second Maximum]({{ "/pset/week-6/second-maximum" | relative_url }})
+- [Smallest Element]({{ "/pset/day-8/smallest-element" | relative_url }})
+- [Minimum Difference]({{ "/pset/day-8/minimum-difference" | relative_url }})
+- [Monster Game]({{ "/pset/day-8/monster-game" | relative_url }})
+- [Bubble Sort]({{ "/pset/day-8/bubble-sort" | relative_url }})
+- [Selection Sort]({{ "/pset/day-8/selection-sort" | relative_url }})
+- [Insertion Sort]({{ "/pset/day-8/insertion-sort" | relative_url }})
+- [Reverse Array]({{ "/pset/day-8/reverse-array" | relative_url }})
+- [Second Maximum]({{ "/pset/day-8/second-maximum" | relative_url }})
 
 </details>
 
 <details markdown="1">
 <summary><strong>Day 9 – DSA</strong></summary>
 
-- [Dynamic Array]({{ "/pset/week-7/dynamic-array" | relative_url }})
-- [Maximum]({{ "/pset/week-7/maximum" | relative_url }})
-- [Easy Array]({{ "/pset/week-7/easy-array" | relative_url }})
-- [Stack]({{ "/pset/week-7/stack" | relative_url }})
-- [Queue]({{ "/pset/week-7/queue" | relative_url }})
-- [Valid Parentheses]({{ "/pset/week-7/valid-parentheses" | relative_url }})
+- [Dynamic Array]({{ "/pset/day-9/dynamic-array" | relative_url }})
+- [Maximum]({{ "/pset/day-9/maximum" | relative_url }})
+- [Easy Array]({{ "/pset/day-9/easy-array" | relative_url }})
+- [Stack]({{ "/pset/day-9/stack" | relative_url }})
+- [Queue]({{ "/pset/day-9/queue" | relative_url }})
+- [Valid Parentheses]({{ "/pset/day-9/valid-parentheses" | relative_url }})
 
 </details>
 
 <details markdown="1">
 <summary><strong>Day 10 – Python & CSV</strong></summary>
 
-- [Language Count]({{ "/pset/week-8/language-count" | relative_url }})
-- [Favorites]({{ "/pset/week-8/favorites" | relative_url }})
+- [Language Count]({{ "/pset/day-10/language-count" | relative_url }})
+- [Favorites]({{ "/pset/day-10/favorites" | relative_url }})
 
 </details>
 
 <details markdown="1">
 <summary><strong>Day 11 – SQL</strong></summary>
 
-- [City Africa]({{ "/pset/week-8/city-africa" | relative_url }})
-- [Continent Average]({{ "/pset/week-8/continent-avg" | relative_url }})
-- [Asia Sum]({{ "/pset/week-8/asia-sum" | relative_url }})
-- [No-Vowel City]({{ "/pset/week-8/no-vowel-city" | relative_url }})
-- [Vowel City]({{ "/pset/week-8/vowel-city" | relative_url }})
+- [City Africa]({{ "/pset/day-11/city-africa" | relative_url }})
+- [Continent Average]({{ "/pset/day-11/continent-avg" | relative_url }})
+- [Asia Sum]({{ "/pset/day-11/asia-sum" | relative_url }})
+- [No-Vowel City]({{ "/pset/day-11/no-vowel-city" | relative_url }})
+- [Vowel City]({{ "/pset/day-11/vowel-city" | relative_url }})
 
 </details>
 
 <details markdown="1">
-<summary><strong>Day 12</strong></summary>
+<summary><strong>Day 12 – HTML</strong></summary>
 
-- [Pset 9]({{ "/pset/week-9/pset-9" | relative_url }})
+- [Portfolio Page]({{ "/pset/day-12/personal-page" | relative_url }})
+- [Egyptian Food Table]({{ "/pset/day-12/table-schedule" | relative_url }})
+- [Registration Form]({{ "/pset/day-12/html-form" | relative_url }})
 
 </details>
 
 <details markdown="1">
-<summary><strong>Day 13</strong></summary>
+<summary><strong>Day 13 – CSS</strong></summary>
 
-- [Pset 10]({{ "/pset/week-10/pset-10" | relative_url }})
+- [Card Layout]({{ "/pset/day-13/style-me" | relative_url }})
+- [Navigation Bar]({{ "/pset/day-13/box-model-card" | relative_url }})
+- [Simple Contact Form]({{ "/pset/day-13/navbar-style" | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary><strong>Day 14 – JavaScript I</strong></summary>
+
+- [Age Category Checker]({{ "/pset/day-14/js-basics" | relative_url }})
+- [Greet User]({{ "/pset/day-14/calculator" | relative_url }})
+- [Student Grade Calculator]({{ "/pset/day-14/dom-magic" | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary><strong>Day 15 – JavaScript II</strong></summary>
+
+- [Company Info Viewer]({{ "/pset/day-15/student-object" | relative_url }})
+- [Fruit Manager]({{ "/pset/day-15/array-manager" | relative_url }})
+- [DOM Paragraph Editor]({{ "/pset/day-15/dom-builder" | relative_url }})
+
+</details>
+
+<details markdown="1">
+<summary><strong>Day 16 – JavaScript III</strong></summary>
+
+- [Quote of the Day]({{ "/pset/day-16/color-changer" | relative_url }})
+- [Mood-Based Greeting App]({{ "/pset/day-16/word-guesser" | relative_url }})
 
 </details>
 
