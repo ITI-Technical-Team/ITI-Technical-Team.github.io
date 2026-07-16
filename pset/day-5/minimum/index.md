@@ -60,7 +60,7 @@ Print the minimum element in the array.
 Make sure you are in the `minimum` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/week3/pset/3/minimum
+check50 iti-technical-team/problemset/pset/5/minimum
 ```
 
 ## Submit Your Code
@@ -68,5 +68,5 @@ check50 iti-technical-team/week3/pset/3/minimum
 Make sure you are in the `minimum` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/week3/pset/3/minimum
+submit50 iti-technical-team/problemset/pset/5/minimum
 ```

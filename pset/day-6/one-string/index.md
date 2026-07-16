@@ -51,7 +51,7 @@ stringsheet
 Make sure you are in the `onestring` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/pset/6/onestring
+check50 iti-technical-team/problemset/pset/6/one-string
 ```
 
 ## Submit Your Code
@@ -59,5 +59,5 @@ check50 iti-technical-team/problemset/pset/6/onestring
 Make sure you are in the `onestring` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/pset/6/onestring
+submit50 iti-technical-team/problemset/pset/6/one-string
 ```
