@@ -16,8 +16,8 @@ Implement a program that takes the **radius** of a circle from the user and calc
 
 Your program should output the prompt `Radius = ` before reading the input.
 
-* **Area** $= \\pi \\times R \\times R$
-* **Perimeter** $= 2 \\times \\pi \\times R$
+* **Area** \\(= \\pi \\times R \\times R\\)
+* **Perimeter** \\(= 2 \\times \\pi \\times R\\)
 
 ## Example
 
