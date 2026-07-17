@@ -29,6 +29,8 @@ title: Vowel City
 
   > [!IMPORTANT]
   > You must run `.mode csv` **before** the `.import` commands. If you skip it, the tables will be imported incorrectly, causing your query results to be empty or malformed.
+  > 
+  > *Tip: You can use the copy icon at the top-right of the code block to copy all commands, and paste them into the terminal using `Ctrl + Shift + V` (on Windows/Linux) or `Cmd + V` (on macOS).*
 
 - write `code vowel-city.sql` to create a file called `vowel-city.sql` and open it in the editor
 
