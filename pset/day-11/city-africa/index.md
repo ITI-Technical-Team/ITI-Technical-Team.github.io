@@ -2,7 +2,7 @@
 title: City Africa
 ---
 
-# C. City Africa
+# A. City Africa
 
 ## Problem Setup
 
@@ -28,6 +28,10 @@ title: City Africa
   .import COUNTRY.csv COUNTRY
   .quit
   ```
+
+  > [!IMPORTANT]
+  > You must run `.mode csv` **before** the `.import` commands. If you skip it, the tables will be imported incorrectly, causing your query results to be empty or malformed.
+
 - write `code city-africa.sql` to create a file called `city-africa.sql` and open it in the editor
 
 ## Problem

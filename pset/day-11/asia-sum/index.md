@@ -2,7 +2,7 @@
 title: Asia Sum
 ---
 
-# E. Asia Sum
+# C. Asia Sum
 
 ## Problem Setup
 
@@ -28,6 +28,10 @@ title: Asia Sum
   .import COUNTRY.csv COUNTRY
   .quit
   ```
+
+  > [!IMPORTANT]
+  > You must run `.mode csv` **before** the `.import` commands. If you skip it, the tables will be imported incorrectly, causing your query results to be empty or malformed.
+
 - write `code asia-sum.sql` to create a file called `asia-sum.sql` and open it in the editor
 
 ## Problem

@@ -2,7 +2,7 @@
 title: Continent Average
 ---
 
-# D. Continent Average
+# B. Continent Average
 
 ## Problem Setup
 
@@ -28,6 +28,10 @@ title: Continent Average
   .import COUNTRY.csv COUNTRY
   .quit
   ```
+
+  > [!IMPORTANT]
+  > You must run `.mode csv` **before** the `.import` commands. If you skip it, the tables will be imported incorrectly, causing your query results to be empty or malformed.
+
 - write `code continent-avg.sql` to create a file called `continent-avg.sql` and open it in the editor
 
 ## Problem

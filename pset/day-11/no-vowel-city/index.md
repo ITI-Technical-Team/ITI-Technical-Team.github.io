@@ -2,7 +2,7 @@
 title: No-Vowel City
 ---
 
-# F. No-Vowel City
+# D. No-Vowel City
 
 ## Problem Setup
 
@@ -26,6 +26,10 @@ title: No-Vowel City
   .import STATION.csv STATION
   .quit
   ```
+
+  > [!IMPORTANT]
+  > You must run `.mode csv` **before** the `.import` commands. If you skip it, the tables will be imported incorrectly, causing your query results to be empty or malformed.
+
 - write `code no-vowel-city.sql` to create a file called `no-vowel-city.sql` and open it in the editor
 
 ## Problem
