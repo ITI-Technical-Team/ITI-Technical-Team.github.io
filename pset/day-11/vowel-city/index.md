@@ -12,7 +12,7 @@ title: Vowel City
 - write `cd vowel-city` to go to the `vowel-city` folder
 - download the data file by running:
   ```bash
-  wget https://raw.githubusercontent.com/ITI-Technical-Team/Problemset/pset/8/vowel-city/STATION.csv
+  wget https://raw.githubusercontent.com/ITI-Technical-Team/Problemset/pset/11/vowel-city/STATION.csv
   ```
 - create the SQLite database and import the data:
   ```bash

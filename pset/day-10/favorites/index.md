@@ -12,7 +12,7 @@ title: Favorites
 - write `cd favorites` to go to the `favorites` folder
 - download the data file by running:
   ```bash
-  wget https://raw.githubusercontent.com/ITI-Technical-Team/Problemset/pset/8/favorites/favorites.csv
+  wget https://raw.githubusercontent.com/ITI-Technical-Team/Problemset/pset/10/favorites/favorites.csv
   ```
 - write `code favorites.py` to create a file called `favorites.py` and open it in the editor
 

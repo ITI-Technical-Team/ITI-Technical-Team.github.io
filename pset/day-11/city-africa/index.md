@@ -12,8 +12,8 @@ title: City Africa
 - write `cd city-africa` to go to the `city-africa` folder
 - download the data files by running:
   ```bash
-  wget https://raw.githubusercontent.com/ITI-Technical-Team/Problemset/pset/8/city-africa/CITY.csv
-  wget https://raw.githubusercontent.com/ITI-Technical-Team/Problemset/pset/8/city-africa/COUNTRY.csv
+  wget https://raw.githubusercontent.com/ITI-Technical-Team/Problemset/pset/11/city-africa/CITY.csv
+  wget https://raw.githubusercontent.com/ITI-Technical-Team/Problemset/pset/11/city-africa/COUNTRY.csv
   ```
 - create the SQLite database and import the data:
   ```bash

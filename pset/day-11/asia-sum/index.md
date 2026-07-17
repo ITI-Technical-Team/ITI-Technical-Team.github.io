@@ -12,8 +12,8 @@ title: Asia Sum
 - write `cd asia-sum` to go to the `asia-sum` folder
 - download the data files by running:
   ```bash
-  wget https://raw.githubusercontent.com/ITI-Technical-Team/Problemset/pset/8/asia-sum/CITY.csv
-  wget https://raw.githubusercontent.com/ITI-Technical-Team/Problemset/pset/8/asia-sum/COUNTRY.csv
+  wget https://raw.githubusercontent.com/ITI-Technical-Team/Problemset/pset/11/asia-sum/CITY.csv
+  wget https://raw.githubusercontent.com/ITI-Technical-Team/Problemset/pset/11/asia-sum/COUNTRY.csv
   ```
 - create the SQLite database and import the data:
   ```bash

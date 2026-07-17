@@ -12,8 +12,8 @@ title: Continent Average
 - write `cd continent-avg` to go to the `continent-avg` folder
 - download the data files by running:
   ```bash
-  wget https://raw.githubusercontent.com/ITI-Technical-Team/Problemset/pset/8/continent-avg/CITY.csv
-  wget https://raw.githubusercontent.com/ITI-Technical-Team/Problemset/pset/8/continent-avg/COUNTRY.csv
+  wget https://raw.githubusercontent.com/ITI-Technical-Team/Problemset/pset/11/continent-avg/CITY.csv
+  wget https://raw.githubusercontent.com/ITI-Technical-Team/Problemset/pset/11/continent-avg/COUNTRY.csv
   ```
 - create the SQLite database and import the data:
   ```bash

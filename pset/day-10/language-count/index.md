@@ -12,7 +12,7 @@ title: Language Count
 - write `cd language-count` to go to the `language-count` folder
 - download the data file by running:
   ```bash
-  wget https://raw.githubusercontent.com/ITI-Technical-Team/Problemset/pset/8/language-count/favorites.csv
+  wget https://raw.githubusercontent.com/ITI-Technical-Team/Problemset/pset/10/language-count/favorites.csv
   ```
 - write `code language-count.py` to create a file called `language-count.py` and open it in the editor
 
