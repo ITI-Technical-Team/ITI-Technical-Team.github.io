@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 <script>
 document.addEventListener("DOMContentLoaded", function() {
+    // 1. Copy Code Button
     document.querySelectorAll('div.highlight').forEach(function(highlightDiv) {
         var button = document.createElement('button');
         button.className = 'copy-code-btn';
@@ -24,6 +25,52 @@ document.addEventListener("DOMContentLoaded", function() {
                 console.error('Could not copy text: ', err);
             });
         });
+    });
+
+    // 2. GitHub-style Markdown Alerts Parser
+    document.querySelectorAll('blockquote').forEach(function(bq) {
+        var firstEl = bq.firstElementChild;
+        if (!firstEl) return;
+        
+        var text = firstEl.innerHTML.trim();
+        var match = text.match(/^\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]([\s\S]*)/i);
+        if (match) {
+            var type = match[1].toUpperCase();
+            var content = match[2].trim();
+            
+            content = content.replace(/^(?:<br\s*\/?>|\s)+/i, '');
+            firstEl.innerHTML = content;
+            if (firstEl.innerHTML.trim() === '') {
+                firstEl.remove();
+            }
+            
+            bq.className = 'markdown-alert markdown-alert-' + type.toLowerCase();
+            
+            var titleDiv = document.createElement('div');
+            titleDiv.className = 'markdown-alert-title';
+            
+            var iconHtml = '';
+            var titleText = '';
+            if (type === 'NOTE') {
+                iconHtml = '<i class="fas fa-info-circle"></i>';
+                titleText = 'Note';
+            } else if (type === 'TIP') {
+                iconHtml = '<i class="far fa-lightbulb"></i>';
+                titleText = 'Tip';
+            } else if (type === 'IMPORTANT') {
+                iconHtml = '<i class="fas fa-exclamation-circle"></i>';
+                titleText = 'Important';
+            } else if (type === 'WARNING') {
+                iconHtml = '<i class="fas fa-exclamation-triangle"></i>';
+                titleText = 'Warning';
+            } else if (type === 'CAUTION') {
+                iconHtml = '<i class="fas fa-hand-paper"></i>';
+                titleText = 'Caution';
+            }
+            
+            titleDiv.innerHTML = iconHtml + '<span>' + titleText + '</span>';
+            bq.insertBefore(titleDiv, bq.firstChild);
+        }
     });
 });
 </script>

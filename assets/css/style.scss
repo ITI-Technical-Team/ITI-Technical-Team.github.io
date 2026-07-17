@@ -67,3 +67,79 @@ details {
     color: #28a745;
   }
 }
+
+// Markdown Alerts styling (Github Alert blocks)
+.markdown-alert {
+  border-left: 4px solid;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin: 1.5rem 0;
+  
+  p:last-child {
+    margin-bottom: 0 !important;
+  }
+  
+  .markdown-alert-title {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1;
+    
+    i {
+      margin-right: 0.4rem;
+      font-size: 1rem;
+    }
+  }
+}
+
+.markdown-alert-note {
+  border-color: #388bfd !important;
+  background-color: rgba(56, 139, 253, 0.1) !important;
+  color: #c9d1d9 !important;
+  
+  .markdown-alert-title {
+    color: #2f81f7 !important;
+  }
+}
+
+.markdown-alert-tip {
+  border-color: #3fb950 !important;
+  background-color: rgba(46, 160, 67, 0.1) !important;
+  color: #c9d1d9 !important;
+  
+  .markdown-alert-title {
+    color: #3fb950 !important;
+  }
+}
+
+.markdown-alert-important {
+  border-color: #8957e5 !important;
+  background-color: rgba(137, 87, 229, 0.1) !important;
+  color: #c9d1d9 !important;
+  
+  .markdown-alert-title {
+    color: #a371f7 !important;
+  }
+}
+
+.markdown-alert-warning {
+  border-color: #d29922 !important;
+  background-color: rgba(210, 153, 34, 0.1) !important;
+  color: #c9d1d9 !important;
+  
+  .markdown-alert-title {
+    color: #d29922 !important;
+  }
+}
+
+.markdown-alert-caution {
+  border-color: #f85149 !important;
+  background-color: rgba(248, 81, 73, 0.1) !important;
+  color: #c9d1d9 !important;
+  
+  .markdown-alert-title {
+    color: #f85149 !important;
+  }
+}
