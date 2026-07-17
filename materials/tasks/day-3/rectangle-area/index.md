@@ -4,47 +4,46 @@ title: Rectangle Area
 
 # Rectangle Area
 
+## Problem Setup
+- login to [CS50 IDE](https://cs50.dev)
+- write `cd` in the *terminal* to go to the home directory
+- write `mkdir rectangle-area` to create a folder called `rectangle-area`
+- write `cd rectangle-area` to go to the `rectangle-area` folder
+- write `code rectangle-area.cpp` to create a file called `rectangle-area.cpp` and open it in the editor
+
+## Problem
 Implement a program that takes the **height** and **width** from the user and calculates the area of a rectangle.
 
 $$\text{Area} = \text{height} \times \text{width}$$
 
-## Example Run
+## Example
 
-```text
+**Input:**
+```
 4 5
+```
+
+**Output:**
+```
 Area = 20
 ```
 
-## Setup
-
-Create a directory named `rectangle-area` on your system and create a file named `rectangle-area.cpp` inside it.
-
-```bash
-mkdir rectangle-area
-cd rectangle-area
-code rectangle-area.cpp
-```
-
-Write your C++ program in `rectangle-area.cpp`.
-
-## Testing
-
-You can test your program manually by compiling and running it:
+## How to Test
+To test your program manually, compile it with `make` and run it:
 
 ```bash
-g++ -o rectangle-area rectangle-area.cpp
+make rectangle-area
 ./rectangle-area
 ```
 
-Or you can use `check50` to test your code automatically:
+To test your code automatically with `check50`, run:
 
 ```bash
 check50 iti-technical-team/problemset/pset/lec/3/rectangle-area
 ```
 
-## Submission
-
-Submit your solution using `submit50`:
+## Submit Your Code
+Make sure you are in the `rectangle-area` directory, then run the following command:
 
 ```bash
 submit50 iti-technical-team/problemset/pset/lec/3/rectangle-area

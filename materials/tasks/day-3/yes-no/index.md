@@ -4,61 +4,47 @@ title: Yes or No
 
 # Yes or No
 
+## Problem Setup
+- login to [CS50 IDE](https://cs50.dev)
+- write `cd` in the *terminal* to go to the home directory
+- write `mkdir yes-no` to create a folder called `yes-no`
+- write `cd yes-no` to go to the `yes-no` folder
+- write `code yes-no.cpp` to create a file called `yes-no.cpp` and open it in the editor
+
+## Problem
 Implement a program that takes a character from the user and:
 * If the character is `'Y'` or `'y'`, print `YES`
 * If the character is `'N'` or `'n'`, print `NO`
 * Otherwise, print `Invalid option!`
 
-## Example Runs
+## Example
 
-### Example 1
-```text
+**Input:**
+```
 Y
+```
+
+**Output:**
+```
 YES
 ```
 
-### Example 2
-```text
-n
-NO
-```
-
-### Example 3
-```text
-v
-Invalid option!
-```
-
-## Setup
-
-Create a directory named `yes-no` on your system and create a file named `yes-no.cpp` inside it.
+## How to Test
+To test your program manually, compile it with `make` and run it:
 
 ```bash
-mkdir yes-no
-cd yes-no
-code yes-no.cpp
-```
-
-Write your C++ program in `yes-no.cpp`.
-
-## Testing
-
-You can test your program manually by compiling and running it:
-
-```bash
-g++ -o yes-no yes-no.cpp
+make yes-no
 ./yes-no
 ```
 
-Or you can use `check50` to test your code automatically:
+To test your code automatically with `check50`, run:
 
 ```bash
 check50 iti-technical-team/problemset/pset/lec/3/yes-no
 ```
 
-## Submission
-
-Submit your solution using `submit50`:
+## Submit Your Code
+Make sure you are in the `yes-no` directory, then run the following command:
 
 ```bash
 submit50 iti-technical-team/problemset/pset/lec/3/yes-no

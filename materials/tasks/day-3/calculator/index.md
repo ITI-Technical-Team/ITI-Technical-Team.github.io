@@ -4,48 +4,47 @@ title: Calculator
 
 # Calculator
 
+## Problem Setup
+- login to [CS50 IDE](https://cs50.dev)
+- write `cd` in the *terminal* to go to the home directory
+- write `mkdir calculator` to create a folder called `calculator`
+- write `cd calculator` to go to the `calculator` folder
+- write `code calculator.cpp` to create a file called `calculator.cpp` and open it in the editor
+
+## Problem
 Given two numbers **X** and **Y**, print their summation, multiplication, and subtraction in the exact format shown below.
 
-## Example Run
+## Example
 
-```text
+**Input:**
+```
 5
 10
+```
+
+**Output:**
+```
 5 + 10 = 15
 5 * 10 = 50
 5 - 10 = -5
 ```
 
-## Setup
-
-Create a directory named `calculator` on your system and create a file named `calculator.cpp` inside it.
-
-```bash
-mkdir calculator
-cd calculator
-code calculator.cpp
-```
-
-Write your C++ program in `calculator.cpp`.
-
-## Testing
-
-You can test your program manually by compiling and running it:
+## How to Test
+To test your program manually, compile it with `make` and run it:
 
 ```bash
-g++ -o calculator calculator.cpp
+make calculator
 ./calculator
 ```
 
-Or you can use `check50` to test your code automatically:
+To test your code automatically with `check50`, run:
 
 ```bash
 check50 iti-technical-team/problemset/pset/lec/3/calculator
 ```
 
-## Submission
-
-Submit your solution using `submit50`:
+## Submit Your Code
+Make sure you are in the `calculator` directory, then run the following command:
 
 ```bash
 submit50 iti-technical-team/problemset/pset/lec/3/calculator
