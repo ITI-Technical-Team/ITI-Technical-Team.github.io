@@ -23,14 +23,12 @@ Print `YES` if the guess is correct, and `NO` otherwise.
 
 ## Example
 
-**Input:**
-```
+Here is how the program should run in the terminal. The inputs typed by the user are shown in **bold**.
+
+```text
+$ ./guess-number
 P
 5
-```
-
-**Output:**
-```
 YES
 ```
 

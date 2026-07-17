@@ -21,15 +21,13 @@ Your program should output the prompts `X = ` and `Y = ` before reading each inp
 
 ## Example
 
-**Input:**
-```
-5
-10
-```
+Here is how the program should run in the terminal. The inputs typed by the user are shown in **bold**.
 
-**Output:**
-```
-X = Y = X is less than Y
+```text
+$ ./compare-numbers
+X = 5
+Y = 10
+X is less than Y
 ```
 
 ## How to Test

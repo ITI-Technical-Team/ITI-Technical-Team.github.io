@@ -16,14 +16,12 @@ Given two numbers **X** and **Y**, print their summation, multiplication, and su
 
 ## Example
 
-**Input:**
-```
+Here is how the program should run in the terminal. The inputs typed by the user are shown in **bold**.
+
+```text
+$ ./calculator
 5
 10
-```
-
-**Output:**
-```
 5 + 10 = 15
 5 * 10 = 50
 5 - 10 = -5

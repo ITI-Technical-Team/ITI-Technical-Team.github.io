@@ -18,16 +18,14 @@ Your program should output the prompts `A = `, `B = `, and `C = ` before reading
 
 ## Example
 
-**Input:**
-```
-1
-2
-3
-```
+Here is how the program should run in the terminal. The inputs typed by the user are shown in **bold**.
 
-**Output:**
-```
-A = B = C = Minimum = 1 and Maximum = 3
+```text
+$ ./min-max
+A = 1
+B = 2
+C = 3
+Minimum = 1 and Maximum = 3
 ```
 
 ## How to Test

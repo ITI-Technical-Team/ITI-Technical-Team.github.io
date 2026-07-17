@@ -21,14 +21,12 @@ Your program should output the prompt `Radius = ` before reading the input.
 
 ## Example
 
-**Input:**
-```
-2.0
-```
+Here is how the program should run in the terminal. The inputs typed by the user are shown in **bold**.
 
-**Output:**
-```
-Radius = Area = 12.56
+```text
+$ ./circle
+Radius = 2.0
+Area = 12.56
 Perimeter = 12.56
 ```
 

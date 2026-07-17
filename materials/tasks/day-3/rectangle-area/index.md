@@ -18,13 +18,11 @@ Implement a program that takes the **height** and **width** from the user and ca
 
 ## Example
 
-**Input:**
-```
-4 5
-```
+Here is how the program should run in the terminal. The inputs typed by the user are shown in **bold**.
 
-**Output:**
-```
+```text
+$ ./rectangle-area
+4 5
 Area = 20
 ```
 

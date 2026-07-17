@@ -19,13 +19,11 @@ Implement a program that takes a character from the user and:
 
 ## Example
 
-**Input:**
-```
-Y
-```
+Here is how the program should run in the terminal. The inputs typed by the user are shown in **bold**.
 
-**Output:**
-```
+```text
+$ ./yes-no
+Y
 YES
 ```
 
