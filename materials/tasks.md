@@ -69,11 +69,14 @@ Here you can find the lecture-specific tasks and practice exercises for each day
 .collapse-chevron {
     transition: transform 0.2s ease;
 }
-.resource-row[aria-expanded="true"] .collapse-chevron {
+.row-header[aria-expanded="true"] .collapse-chevron {
     transform: rotate(180deg);
 }
 .task-list-container {
     padding-left: calc(65px + 1rem) !important;
+}
+.row-header {
+    cursor: pointer;
 }
 </style>
 
@@ -97,8 +100,8 @@ Here you can find the lecture-specific tasks and practice exercises for each day
       <em>To be announced...</em>
     </div>
   </div>
-  <div class="resource-row track-foundations flex-column align-items-start" data-bs-toggle="collapse" data-bs-target="#collapse-day-3" aria-expanded="false" style="cursor: pointer;">
-    <div class="d-flex align-items-center justify-content-between w-100">
+  <div class="resource-row track-foundations flex-column align-items-start">
+    <div class="d-flex align-items-center justify-content-between w-100 row-header" data-bs-toggle="collapse" data-bs-target="#collapse-day-3" aria-expanded="false">
       <div class="d-flex align-items-center">
         <span class="badge bg-danger badge-day me-3">Day 3</span>
         <h5 class="day-title">C++ Basics I</h5>
@@ -108,7 +111,7 @@ Here you can find the lecture-specific tasks and practice exercises for each day
         <i class="fas fa-chevron-down text-secondary collapse-chevron"></i>
       </div>
     </div>
-    <div class="collapse w-100 task-list-container mt-3" id="collapse-day-3" onclick="event.stopPropagation();">
+    <div class="collapse w-100 task-list-container mt-3" id="collapse-day-3">
       <ul class="list-unstyled mb-0">
         <li class="mb-2">
           <a href="{{ '/materials/tasks/day-3/calculator' | relative_url }}" class="task-link">
