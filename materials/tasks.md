@@ -40,10 +40,12 @@ Here you can find the lecture-specific tasks and practice exercises for each day
     border-left: 4px solid #3498db;
 }
 .day-title {
-    margin-bottom: 0;
+    margin: 0 !important;
+    padding: 0 !important;
     font-weight: 600;
     color: #fff;
     font-size: 1.1rem;
+    line-height: 1.2 !important;
 }
 .badge-day {
     min-width: 65px;
@@ -52,6 +54,7 @@ Here you can find the lecture-specific tasks and practice exercises for each day
     padding: 0.35em 0.65em;
     font-weight: 700;
     border-radius: 4px;
+    line-height: 1.2 !important;
 }
 .task-link {
     color: rgba(255, 255, 255, 0.75) !important;
