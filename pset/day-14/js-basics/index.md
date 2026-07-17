@@ -41,8 +41,8 @@ resultElement.className = "child"; // applies the .child CSS rule
 - Login to [CS50 IDE](https://cs50.dev)
 - In the terminal, run:
   ```bash
-  mkdir age-checker
-  cd age-checker
+  mkdir js-basics
+  cd js-basics
   code index.html
   ```
 
@@ -83,7 +83,7 @@ Create an **Age Category Checker** page in `index.html`.
 
 ## Test Your Code
 
-Make sure you are in the `age-checker` directory, then run:
+Make sure you are in the `js-basics` directory, then run:
 
 ```bash
 check50 iti-technical-team/problemset/pset/14/js-basics
@@ -91,7 +91,7 @@ check50 iti-technical-team/problemset/pset/14/js-basics
 
 ## Submit Your Code
 
-Make sure you are in the `age-checker` directory, then run:
+Make sure you are in the `js-basics` directory, then run:
 
 ```bash
 submit50 iti-technical-team/problemset/pset/14/js-basics

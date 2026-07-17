@@ -46,8 +46,8 @@ for (let i = 0; i < company.employees.length; i++) {
 - Login to [CS50 IDE](https://cs50.dev)
 - In the terminal, run:
   ```bash
-  mkdir company-viewer
-  cd company-viewer
+  mkdir student-object
+  cd student-object
   code index.html
   ```
 
@@ -78,7 +78,7 @@ Create a **Company Info Viewer** in `index.html`.
 
 ## Test Your Code
 
-Make sure you are in the `company-viewer` directory, then run:
+Make sure you are in the `student-object` directory, then run:
 
 ```bash
 check50 iti-technical-team/problemset/pset/15/student-object
@@ -86,7 +86,7 @@ check50 iti-technical-team/problemset/pset/15/student-object
 
 ## Submit Your Code
 
-Make sure you are in the `company-viewer` directory, then run:
+Make sure you are in the `student-object` directory, then run:
 
 ```bash
 submit50 iti-technical-team/problemset/pset/15/student-object

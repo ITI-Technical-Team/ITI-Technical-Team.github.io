@@ -8,9 +8,9 @@ title: One String
 
 - login to [CS50 IDE](https://cs50.dev)
 - write `cd` in the *terminal* to go to the home directory
-- write `mkdir onestring` to create a folder called `onestring`
-- write `cd onestring` to go to the `onestring` folder
-- write `code onestring.cpp` to create a file called `onestring.cpp` and open it in the editor
+- write `mkdir one-string` to create a folder called `one-string`
+- write `cd one-string` to go to the `one-string` folder
+- write `code one-string.cpp` to create a file called `one-string.cpp` and open it in the editor
 
 ## Problem
 
@@ -48,7 +48,7 @@ stringsheet
 
 ## Test Your Code
 
-Make sure you are in the `onestring` directory, then run the following command:
+Make sure you are in the `one-string` directory, then run the following command:
 
 ```bash
 check50 iti-technical-team/problemset/pset/6/one-string
@@ -56,7 +56,7 @@ check50 iti-technical-team/problemset/pset/6/one-string
 
 ## Submit Your Code
 
-Make sure you are in the `onestring` directory, then run the following command:
+Make sure you are in the `one-string` directory, then run the following command:
 
 ```bash
 submit50 iti-technical-team/problemset/pset/6/one-string

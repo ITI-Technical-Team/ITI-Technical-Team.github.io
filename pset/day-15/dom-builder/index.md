@@ -43,8 +43,8 @@ title.innerHTML += " - Edited";
 - Login to [CS50 IDE](https://cs50.dev)
 - In the terminal, run:
   ```bash
-  mkdir paragraph-editor
-  cd paragraph-editor
+  mkdir dom-builder
+  cd dom-builder
   code index.html
   ```
 
@@ -84,7 +84,7 @@ Define the function `editParagraphs()` to run when the button is clicked:
 
 ## Test Your Code
 
-Make sure you are in the `paragraph-editor` directory, then run:
+Make sure you are in the `dom-builder` directory, then run:
 
 ```bash
 check50 iti-technical-team/problemset/pset/15/dom-builder
@@ -92,7 +92,7 @@ check50 iti-technical-team/problemset/pset/15/dom-builder
 
 ## Submit Your Code
 
-Make sure you are in the `paragraph-editor` directory, then run:
+Make sure you are in the `dom-builder` directory, then run:
 
 ```bash
 submit50 iti-technical-team/problemset/pset/15/dom-builder

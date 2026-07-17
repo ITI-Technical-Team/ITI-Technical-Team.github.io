@@ -13,7 +13,7 @@ Forms are essential for collecting user input. In this task, we will apply CSS t
 By default, `<label>`, `<input>`, and `<textarea>` elements are inline or inline-block. To make labels stack above their inputs, we can change their display property:
 
 ```css
-.contact-form label {
+.navbar-style label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
@@ -23,8 +23,8 @@ By default, `<label>`, `<input>`, and `<textarea>` elements are inline or inline
 To make inputs fill the width of the form container, we set `width: 100%`. We also use `box-sizing: border-box` to ensure padding doesn't make the elements overflow:
 
 ```css
-.contact-form input,
-.contact-form textarea {
+.navbar-style input,
+.navbar-style textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -39,7 +39,7 @@ To make inputs fill the width of the form container, we set `width: 100%`. We al
 Buttons can be styled with custom background colors, padding, and hover states to feel responsive:
 
 ```css
-.contact-form button {
+.navbar-style button {
     background-color: #0077aa;
     color: white;
     padding: 10px 20px;
@@ -48,7 +48,7 @@ Buttons can be styled with custom background colors, padding, and hover states t
     cursor: pointer;
 }
 
-.contact-form button:hover {
+.navbar-style button:hover {
     background-color: #01293b;   /* darker background color on hover */
 }
 ```
@@ -58,8 +58,8 @@ Buttons can be styled with custom background colors, padding, and hover states t
 - Login to [CS50 IDE](https://cs50.dev)
 - In the terminal, run:
   ```bash
-  mkdir contact-form
-  cd contact-form
+  mkdir navbar-style
+  cd navbar-style
   code index.html
   ```
 
@@ -71,7 +71,7 @@ Create a styled contact form in `index.html`.
 
 **HTML** — `index.html` must contain:
 
-1. A `<form>` element (e.g. with `class="contact-form"`).
+1. A `<form>` element (e.g. with `class="navbar-style"`).
 2. Inside the form, you must include:
    - A `<label>` and `<input>` (type `text` or similar) for **Name**.
    - A `<label>` and `<input>` (type `email`) for **Email**.
@@ -111,7 +111,7 @@ Create a styled contact form in `index.html`.
 
 ## Test Your Code
 
-Make sure you are in the `contact-form` directory, then run:
+Make sure you are in the `navbar-style` directory, then run:
 
 ```bash
 check50 iti-technical-team/problemset/pset/13/navbar-style
@@ -119,7 +119,7 @@ check50 iti-technical-team/problemset/pset/13/navbar-style
 
 ## Submit Your Code
 
-Make sure you are in the `contact-form` directory, then run:
+Make sure you are in the `navbar-style` directory, then run:
 
 ```bash
 submit50 iti-technical-team/problemset/pset/13/navbar-style

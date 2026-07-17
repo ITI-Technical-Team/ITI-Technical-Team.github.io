@@ -38,8 +38,8 @@ fruits.forEach((fruit, index) => {
 - Login to [CS50 IDE](https://cs50.dev)
 - In the terminal, run:
   ```bash
-  mkdir fruit-manager
-  cd fruit-manager
+  mkdir array-manager
+  cd array-manager
   code index.html
   ```
 
@@ -73,7 +73,7 @@ When the page loads, your script must:
 
 ## Test Your Code
 
-Make sure you are in the `fruit-manager` directory, then run:
+Make sure you are in the `array-manager` directory, then run:
 
 ```bash
 check50 iti-technical-team/problemset/pset/15/array-manager
@@ -81,7 +81,7 @@ check50 iti-technical-team/problemset/pset/15/array-manager
 
 ## Submit Your Code
 
-Make sure you are in the `fruit-manager` directory, then run:
+Make sure you are in the `array-manager` directory, then run:
 
 ```bash
 submit50 iti-technical-team/problemset/pset/15/array-manager

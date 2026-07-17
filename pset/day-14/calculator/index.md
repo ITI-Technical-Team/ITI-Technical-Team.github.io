@@ -29,8 +29,8 @@ document.getElementById("info").innerText = "Hello, " + name + "!";
 - Login to [CS50 IDE](https://cs50.dev)
 - In the terminal, run:
   ```bash
-  mkdir greet-user
-  cd greet-user
+  mkdir calculator
+  cd calculator
   code index.html
   ```
 
@@ -63,7 +63,7 @@ Style your page to look clean and neat:
 
 ## Test Your Code
 
-Make sure you are in the `greet-user` directory, then run:
+Make sure you are in the `calculator` directory, then run:
 
 ```bash
 check50 iti-technical-team/problemset/pset/14/calculator
@@ -71,7 +71,7 @@ check50 iti-technical-team/problemset/pset/14/calculator
 
 ## Submit Your Code
 
-Make sure you are in the `greet-user` directory, then run:
+Make sure you are in the `calculator` directory, then run:
 
 ```bash
 submit50 iti-technical-team/problemset/pset/14/calculator

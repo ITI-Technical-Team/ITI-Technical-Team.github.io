@@ -7,9 +7,9 @@ title: Compare
 ## Problem Setup
 - login to [CS50 IDE](https://cs50.dev)
 - write `cd` in the *terminal* to go to the home directory
-- write `mkdir compare2` to create a folder called `compare2`
-- write `cd compare2` to go to the `compare2` folder
-- write `code compare2.cpp` to create a file called `compare2.cpp` and open it in the editor
+- write `mkdir string-compare` to create a folder called `string-compare`
+- write `cd string-compare` to go to the `string-compare` folder
+- write `code string-compare.cpp` to create a file called `string-compare.cpp` and open it in the editor
 
 ## Problem
 
@@ -71,7 +71,7 @@ Less
 
 ## Test Your Code
 
-Make sure you are in the `compare2` directory, then run the following command:
+Make sure you are in the `string-compare` directory, then run the following command:
 
 ```bash
 check50 iti-technical-team/problemset/pset/6/string-compare
@@ -79,7 +79,7 @@ check50 iti-technical-team/problemset/pset/6/string-compare
 
 ## Submit Your Code
 
-Make sure you are in the `compare2` directory, then run the following command:
+Make sure you are in the `string-compare` directory, then run the following command:
 
 ```bash
 submit50 iti-technical-team/problemset/pset/6/string-compare

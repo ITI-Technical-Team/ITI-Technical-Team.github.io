@@ -49,8 +49,8 @@ The `:hover` pseudo-class allows you to change the style of an element when a us
 - Login to [CS50 IDE](https://cs50.dev)
 - In the terminal, run:
   ```bash
-  mkdir navbar-example
-  cd navbar-example
+  mkdir box-model-card
+  cd box-model-card
   code index.html
   ```
 
@@ -86,7 +86,7 @@ Create a styled navigation bar in `index.html`.
 
 ## Test Your Code
 
-Make sure you are in the `navbar-example` directory, then run:
+Make sure you are in the `box-model-card` directory, then run:
 
 ```bash
 check50 iti-technical-team/problemset/pset/13/box-model-card
@@ -94,7 +94,7 @@ check50 iti-technical-team/problemset/pset/13/box-model-card
 
 ## Submit Your Code
 
-Make sure you are in the `navbar-example` directory, then run:
+Make sure you are in the `box-model-card` directory, then run:
 
 ```bash
 submit50 iti-technical-team/problemset/pset/13/box-model-card

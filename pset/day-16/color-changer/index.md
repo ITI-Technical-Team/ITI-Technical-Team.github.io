@@ -32,8 +32,8 @@ let quotes = {
 - Login to [CS50 IDE](https://cs50.dev)
 - In the terminal, run:
   ```bash
-  mkdir quote-app
-  cd quote-app
+  mkdir color-changer
+  cd color-changer
   code index.html
   ```
 
@@ -77,7 +77,7 @@ Style the page using a `<style>` block in `<head>` to look centered and visually
 
 ## Test Your Code
 
-Make sure you are in the `quote-app` directory, then run:
+Make sure you are in the `color-changer` directory, then run:
 
 ```bash
 check50 iti-technical-team/problemset/pset/16/color-changer
@@ -85,7 +85,7 @@ check50 iti-technical-team/problemset/pset/16/color-changer
 
 ## Submit Your Code
 
-Make sure you are in the `quote-app` directory, then run:
+Make sure you are in the `color-changer` directory, then run:
 
 ```bash
 submit50 iti-technical-team/problemset/pset/16/color-changer

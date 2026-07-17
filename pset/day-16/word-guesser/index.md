@@ -32,14 +32,14 @@ message.style.color = "#155724";
 - Login to [CS50 IDE](https://cs50.dev)
 - In the terminal, run:
   ```bash
-  mkdir mood-app
-  cd mood-app
+  mkdir word-guesser
+  cd word-guesser
   code index.html
   ```
 
 ## Problem
 
-Create a **Mood-Based Greeting App** in `index.html` that updates the greeting message, picks a random mood-appropriate quote, and dynamically colors the page background based on the selected mood.
+Create a **Mood-Based Greeting App** in `index.html` that updates the greeting message, picks a random word-guesserropriate quote, and dynamically colors the page background based on the selected mood.
 
 ### Requirements
 
@@ -83,7 +83,7 @@ Create a **Mood-Based Greeting App** in `index.html` that updates the greeting m
 
 ## Test Your Code
 
-Make sure you are in the `mood-app` directory, then run:
+Make sure you are in the `word-guesser` directory, then run:
 
 ```bash
 check50 iti-technical-team/problemset/pset/16/word-guesser
@@ -91,7 +91,7 @@ check50 iti-technical-team/problemset/pset/16/word-guesser
 
 ## Submit Your Code
 
-Make sure you are in the `mood-app` directory, then run:
+Make sure you are in the `word-guesser` directory, then run:
 
 ```bash
 submit50 iti-technical-team/problemset/pset/16/word-guesser

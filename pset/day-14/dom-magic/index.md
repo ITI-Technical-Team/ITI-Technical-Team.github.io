@@ -37,8 +37,8 @@ let averageString = average.toFixed(2);
 - Login to [CS50 IDE](https://cs50.dev)
 - In the terminal, run:
   ```bash
-  mkdir grade-calculator
-  cd grade-calculator
+  mkdir dom-magic
+  cd dom-magic
   code index.html
   ```
 
@@ -79,7 +79,7 @@ When the page loads, your script must:
 
 ## Test Your Code
 
-Make sure you are in the `grade-calculator` directory, then run:
+Make sure you are in the `dom-magic` directory, then run:
 
 ```bash
 check50 iti-technical-team/problemset/pset/14/dom-magic
@@ -87,7 +87,7 @@ check50 iti-technical-team/problemset/pset/14/dom-magic
 
 ## Submit Your Code
 
-Make sure you are in the `grade-calculator` directory, then run:
+Make sure you are in the `dom-magic` directory, then run:
 
 ```bash
 submit50 iti-technical-team/problemset/pset/14/dom-magic

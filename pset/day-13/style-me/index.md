@@ -50,8 +50,8 @@ The class name `card` in CSS (`selector = .card`) matches `class="card"` in HTML
 - Login to [CS50 IDE](https://cs50.dev)
 - In the terminal, run:
   ```bash
-  mkdir card-layout
-  cd card-layout
+  mkdir style-me
+  cd style-me
   code index.html
   ```
 
@@ -91,7 +91,7 @@ The card should be **centred on the page** and have visible rounded corners.
 
 ## Test Your Code
 
-Make sure you are in the `card-layout` directory, then run:
+Make sure you are in the `style-me` directory, then run:
 
 ```bash
 check50 iti-technical-team/problemset/pset/13/style-me
@@ -99,7 +99,7 @@ check50 iti-technical-team/problemset/pset/13/style-me
 
 ## Submit Your Code
 
-Make sure you are in the `card-layout` directory, then run:
+Make sure you are in the `style-me` directory, then run:
 
 ```bash
 submit50 iti-technical-team/problemset/pset/13/style-me
