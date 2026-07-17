@@ -152,13 +152,65 @@ Here you can find the lecture-specific tasks and practice exercises for each day
       </ul>
     </div>
   </div>
-  <div class="resource-row track-foundations align-items-center justify-content-between">
-    <div class="d-flex align-items-center">
-      <span class="badge bg-danger badge-day me-3">Day 4</span>
-      <h5 class="day-title">C++ Basics II</h5>
+  <div class="resource-row track-foundations flex-column align-items-start">
+    <div class="d-flex align-items-center justify-content-between w-100 row-header" data-bs-toggle="collapse" data-bs-target="#collapse-day-4" aria-expanded="false">
+      <div class="d-flex align-items-center">
+        <span class="badge bg-danger badge-day me-3">Day 4</span>
+        <h5 class="day-title">C++ Basics II</h5>
+      </div>
+      <div class="d-flex align-items-center">
+        <span class="text-secondary small me-2">9 Tasks</span>
+        <i class="fas fa-chevron-down text-secondary collapse-chevron"></i>
+      </div>
     </div>
-    <div class="text-secondary small">
-      <em>To be announced...</em>
+    <div class="collapse w-100 task-list-container mt-3" id="collapse-day-4">
+      <ul class="list-unstyled mb-0">
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-4/hashes' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 1: Hashes
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-4/numbers-1-to-n' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 2: Numbers 1 to N
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-4/summation' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 3: Summation
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-4/square-hashes' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 4: Square of Hashes
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-4/pyramid' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 5: Pyramid
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-4/min-function' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 6: Minimum Function
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-4/print-hello' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 7: Hello Loop Function
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-4/age-in-days' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 8: Age in Days
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-4/even-odd' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 9: Even or Odd Function
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
   <div class="resource-row track-foundations align-items-center justify-content-between">
