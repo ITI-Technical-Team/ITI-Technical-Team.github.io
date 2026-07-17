@@ -14,7 +14,7 @@ title: Rectangle Area
 ## Problem
 Implement a program that takes the **height** and **width** from the user and calculates the area of a rectangle.
 
-$$\text{Area} = \text{height} \times \text{width}$$
+$$\\text{Area} = \\text{height} \\times \\text{width}$$
 
 ## Example
 

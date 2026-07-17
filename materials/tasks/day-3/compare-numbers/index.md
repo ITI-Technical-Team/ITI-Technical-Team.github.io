@@ -13,9 +13,9 @@ title: Compare Numbers
 
 ## Problem
 Implement a program that takes two integer variables **X** and **Y** from the user and compares them:
-* If $X < Y$, print `X is less than Y`
-* If $X > Y$, print `X is greater than Y`
-* If $X = Y$, print `X is equal to Y`
+* If \\(X < Y\\), print `X is less than Y`
+* If \\(X > Y\\), print `X is greater than Y`
+* If \\(X = Y\\), print `X is equal to Y`
 
 Your program should output the prompts `X = ` and `Y = ` before reading each input.
 

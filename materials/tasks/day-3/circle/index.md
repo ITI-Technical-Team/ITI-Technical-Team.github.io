@@ -12,12 +12,12 @@ title: Circle Properties
 - write `code circle.cpp` to create a file called `circle.cpp` and open it in the editor
 
 ## Problem
-Implement a program that takes the **radius** of a circle from the user and calculates its area and perimeter. Assume $\pi = 3.14$.
+Implement a program that takes the **radius** of a circle from the user and calculates its area and perimeter. Assume \\(\\pi = 3.14\\).
 
 Your program should output the prompt `Radius = ` before reading the input.
 
-* **Area** $= \pi \times R \times R$
-* **Perimeter** $= 2 \times \pi \times R$
+* **Area** $= \\pi \\times R \\times R$
+* **Perimeter** $= 2 \\times \\pi \\times R$
 
 ## Example
 

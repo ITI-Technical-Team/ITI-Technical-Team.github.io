@@ -15,9 +15,9 @@ title: Guess Number Type
 Implement a program that takes a **Guess character** (representing a number's sign) and a **number** (an integer), and determines if the guess is correct or not.
 
 The Guess character can be:
-* `'P'` for positive numbers ($> 0$)
-* `'N'` for negative numbers ($< 0$)
-* `'Z'` for zero ($= 0$)
+* `'P'` for positive numbers (\\(> 0\\))
+* `'N'` for negative numbers (\\(< 0\\))
+* `'Z'` for zero (\\(= 0\\))
 
 Print `YES` if the guess is correct, and `NO` otherwise.
 
