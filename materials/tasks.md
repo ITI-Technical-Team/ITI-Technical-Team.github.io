@@ -11,24 +11,23 @@ Here you can find the lecture-specific tasks and practice exercises for each day
 .track-header {
     margin-top: 2rem;
     margin-bottom: 1.25rem;
-    color: #fff;
     font-size: 1.25rem;
     font-weight: 600;
-    border-bottom: 1px solid rgba(255,255,255,0.15);
+    border-bottom: 1px solid var(--bs-border-color);
     padding-bottom: 0.5rem;
 }
 .resource-row {
     display: flex;
     padding: 1rem 1.25rem;
     margin-bottom: 0.75rem;
-    background-color: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background-color: rgba(var(--bs-body-color-rgb), 0.02);
+    border: 1px solid var(--bs-border-color);
     border-radius: 6px;
     transition: all 0.2s ease;
 }
 .resource-row:hover {
-    background-color: rgba(255, 255, 255, 0.04);
-    border-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(var(--bs-body-color-rgb), 0.04);
+    border-color: rgba(var(--bs-body-color-rgb), 0.15);
 }
 .track-foundations {
     border-left: 4px solid #e74c3c;
@@ -43,7 +42,6 @@ Here you can find the lecture-specific tasks and practice exercises for each day
     margin: 0 !important;
     padding: 0 !important;
     font-weight: 600;
-    color: #fff;
     font-size: 1.1rem;
     line-height: 1.2 !important;
 }
@@ -55,15 +53,18 @@ Here you can find the lecture-specific tasks and practice exercises for each day
     font-weight: 700;
     border-radius: 4px;
     line-height: 1.2 !important;
+    color: #fff !important; /* Keep badge text white */
 }
 .task-link {
-    color: rgba(255, 255, 255, 0.75) !important;
+    color: var(--bs-body-color) !important;
+    opacity: 0.8;
     text-decoration: none;
-    transition: color 0.15s ease, padding-left 0.15s ease;
+    transition: opacity 0.15s ease, color 0.15s ease, padding-left 0.15s ease;
     display: inline-block;
 }
 .task-link:hover {
-    color: #fff !important;
+    opacity: 1;
+    color: var(--bs-link-color) !important;
     padding-left: 4px;
 }
 .collapse-chevron {

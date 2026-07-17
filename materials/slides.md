@@ -11,10 +11,9 @@ Here you can find the lecture slides and other materials for each day of the cou
 .track-header {
     margin-top: 2rem;
     margin-bottom: 1.25rem;
-    color: #fff;
     font-size: 1.25rem;
     font-weight: 600;
-    border-bottom: 1px solid rgba(255,255,255,0.15);
+    border-bottom: 1px solid var(--bs-border-color);
     padding-bottom: 0.5rem;
 }
 .resource-row {
@@ -23,14 +22,14 @@ Here you can find the lecture slides and other materials for each day of the cou
     justify-content: space-between;
     padding: 0.75rem 1.25rem;
     margin-bottom: 0.75rem;
-    background-color: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background-color: rgba(var(--bs-body-color-rgb), 0.02);
+    border: 1px solid var(--bs-border-color);
     border-radius: 6px;
     transition: all 0.2s ease;
 }
 .resource-row:hover {
-    background-color: rgba(255, 255, 255, 0.04);
-    border-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(var(--bs-body-color-rgb), 0.04);
+    border-color: rgba(var(--bs-body-color-rgb), 0.15);
     transform: translateX(4px);
 }
 .track-foundations {
@@ -46,7 +45,6 @@ Here you can find the lecture slides and other materials for each day of the cou
     margin: 0 !important;
     padding: 0 !important;
     font-weight: 600;
-    color: #fff;
     font-size: 1.1rem;
     line-height: 1.2 !important;
 }
@@ -58,6 +56,21 @@ Here you can find the lecture slides and other materials for each day of the cou
     font-weight: 700;
     border-radius: 4px;
     line-height: 1.2 !important;
+    color: #fff !important; /* Keep badge text white */
+}
+.btn-slides {
+    color: var(--bs-body-color) !important;
+    border: 1px solid var(--bs-border-color) !important;
+    background-color: transparent;
+    transition: all 0.2s ease;
+    font-size: 0.875rem;
+    padding: 0.25rem 1rem;
+}
+.btn-slides:hover {
+    background-color: rgba(var(--bs-body-color-rgb), 0.08) !important;
+    color: var(--bs-link-color) !important;
+    border-color: var(--bs-link-color) !important;
+    text-decoration: none !important;
 }
 </style>
 
@@ -69,7 +82,7 @@ Here you can find the lecture slides and other materials for each day of the cou
       <h5 class="day-title">Scratch I</h5>
     </div>
     <div>
-      <a href="{{ '/assets/pdfs/Day1%20Scratch.pdf' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-3">
+      <a href="{{ '/assets/pdfs/Day1%20Scratch.pdf' | relative_url }}" class="btn btn-slides rounded-pill">
         <i class="far fa-file-pdf me-2"></i>Slides
       </a>
     </div>
@@ -80,7 +93,7 @@ Here you can find the lecture slides and other materials for each day of the cou
       <h5 class="day-title">Scratch II</h5>
     </div>
     <div>
-      <a href="{{ '/assets/pdfs/Day2%20Scratch.pdf' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-3">
+      <a href="{{ '/assets/pdfs/Day2%20Scratch.pdf' | relative_url }}" class="btn btn-slides rounded-pill">
         <i class="far fa-file-pdf me-2"></i>Slides
       </a>
     </div>
@@ -91,7 +104,7 @@ Here you can find the lecture slides and other materials for each day of the cou
       <h5 class="day-title">C++ Basics I</h5>
     </div>
     <div>
-      <a href="{{ '/assets/pdfs/Day3%20C%2B%2B%20Basics.pdf' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-3">
+      <a href="{{ '/assets/pdfs/Day3%20C%2B%2B%20Basics.pdf' | relative_url }}" class="btn btn-slides rounded-pill">
         <i class="far fa-file-pdf me-2"></i>Slides
       </a>
     </div>
@@ -102,7 +115,7 @@ Here you can find the lecture slides and other materials for each day of the cou
       <h5 class="day-title">C++ Basics II</h5>
     </div>
     <div>
-      <a href="{{ '/assets/pdfs/Day4%20C%2B%2B%20Basics.pdf' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-3">
+      <a href="{{ '/assets/pdfs/Day4%20C%2B%2B%20Basics.pdf' | relative_url }}" class="btn btn-slides rounded-pill">
         <i class="far fa-file-pdf me-2"></i>Slides
       </a>
     </div>
@@ -113,7 +126,7 @@ Here you can find the lecture slides and other materials for each day of the cou
       <h5 class="day-title">Arrays</h5>
     </div>
     <div>
-      <a href="{{ '/assets/pdfs/Day5%20Arrays.pdf' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-3">
+      <a href="{{ '/assets/pdfs/Day5%20Arrays.pdf' | relative_url }}" class="btn btn-slides rounded-pill">
         <i class="far fa-file-pdf me-2"></i>Slides
       </a>
     </div>
@@ -124,7 +137,7 @@ Here you can find the lecture slides and other materials for each day of the cou
       <h5 class="day-title">Strings</h5>
     </div>
     <div>
-      <a href="{{ '/assets/pdfs/Day6%20Strings.pdf' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-3">
+      <a href="{{ '/assets/pdfs/Day6%20Strings.pdf' | relative_url }}" class="btn btn-slides rounded-pill">
         <i class="far fa-file-pdf me-2"></i>Slides
       </a>
     </div>
@@ -136,7 +149,7 @@ Here you can find the lecture slides and other materials for each day of the cou
       <h5 class="day-title">Algorithms I</h5>
     </div>
     <div>
-      <a href="{{ '/assets/pdfs/Day7%20Algorithms.pdf' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-3">
+      <a href="{{ '/assets/pdfs/Day7%20Algorithms.pdf' | relative_url }}" class="btn btn-slides rounded-pill">
         <i class="far fa-file-pdf me-2"></i>Slides
       </a>
     </div>
@@ -147,7 +160,7 @@ Here you can find the lecture slides and other materials for each day of the cou
       <h5 class="day-title">Algorithms II</h5>
     </div>
     <div>
-      <a href="{{ '/assets/pdfs/Day8%20Algorithms.pdf' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-3">
+      <a href="{{ '/assets/pdfs/Day8%20Algorithms.pdf' | relative_url }}" class="btn btn-slides rounded-pill">
         <i class="far fa-file-pdf me-2"></i>Slides
       </a>
     </div>
@@ -158,7 +171,7 @@ Here you can find the lecture slides and other materials for each day of the cou
       <h5 class="day-title">DSA (Data Structures & Algorithms)</h5>
     </div>
     <div>
-      <a href="{{ '/assets/pdfs/Day9%20Data%20Structures.pdf' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-3">
+      <a href="{{ '/assets/pdfs/Day9%20Data%20Structures.pdf' | relative_url }}" class="btn btn-slides rounded-pill">
         <i class="far fa-file-pdf me-2"></i>Slides
       </a>
     </div>
@@ -170,7 +183,7 @@ Here you can find the lecture slides and other materials for each day of the cou
       <h5 class="day-title">Python & CSV</h5>
     </div>
     <div>
-      <a href="{{ '/assets/pdfs/Day10%20SQL.pdf' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-3">
+      <a href="{{ '/assets/pdfs/Day10%20SQL.pdf' | relative_url }}" class="btn btn-slides rounded-pill">
         <i class="far fa-file-pdf me-2"></i>Slides
       </a>
     </div>
@@ -181,7 +194,7 @@ Here you can find the lecture slides and other materials for each day of the cou
       <h5 class="day-title">SQL</h5>
     </div>
     <div>
-      <a href="{{ '/assets/pdfs/Day11%20SQL.pdf' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-3">
+      <a href="{{ '/assets/pdfs/Day11%20SQL.pdf' | relative_url }}" class="btn btn-slides rounded-pill">
         <i class="far fa-file-pdf me-2"></i>Slides
       </a>
     </div>
@@ -192,7 +205,7 @@ Here you can find the lecture slides and other materials for each day of the cou
       <h5 class="day-title">HTML</h5>
     </div>
     <div>
-      <a href="{{ '/assets/pdfs/Day12%20HTML.pdf' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-3">
+      <a href="{{ '/assets/pdfs/Day12%20HTML.pdf' | relative_url }}" class="btn btn-slides rounded-pill">
         <i class="far fa-file-pdf me-2"></i>Slides
       </a>
     </div>
@@ -203,7 +216,7 @@ Here you can find the lecture slides and other materials for each day of the cou
       <h5 class="day-title">CSS</h5>
     </div>
     <div>
-      <a href="{{ '/assets/pdfs/Day13%20CSS.pdf' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-3">
+      <a href="{{ '/assets/pdfs/Day13%20CSS.pdf' | relative_url }}" class="btn btn-slides rounded-pill">
         <i class="far fa-file-pdf me-2"></i>Slides
       </a>
     </div>
@@ -214,7 +227,7 @@ Here you can find the lecture slides and other materials for each day of the cou
       <h5 class="day-title">JavaScript I</h5>
     </div>
     <div>
-      <a href="{{ '/assets/pdfs/Day14%20JS.pdf' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-3">
+      <a href="{{ '/assets/pdfs/Day14%20JS.pdf' | relative_url }}" class="btn btn-slides rounded-pill">
         <i class="far fa-file-pdf me-2"></i>Slides
       </a>
     </div>
@@ -225,7 +238,7 @@ Here you can find the lecture slides and other materials for each day of the cou
       <h5 class="day-title">JavaScript II</h5>
     </div>
     <div>
-      <a href="{{ '/assets/pdfs/Day15%20JS.pdf' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-3">
+      <a href="{{ '/assets/pdfs/Day15%20JS.pdf' | relative_url }}" class="btn btn-slides rounded-pill">
         <i class="far fa-file-pdf me-2"></i>Slides
       </a>
     </div>
@@ -236,7 +249,7 @@ Here you can find the lecture slides and other materials for each day of the cou
       <h5 class="day-title">JavaScript III</h5>
     </div>
     <div>
-      <a href="{{ '/assets/pdfs/Day16%20JS.pdf' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-3">
+      <a href="{{ '/assets/pdfs/Day16%20JS.pdf' | relative_url }}" class="btn btn-slides rounded-pill">
         <i class="far fa-file-pdf me-2"></i>Slides
       </a>
     </div>
