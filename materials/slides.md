@@ -29,8 +29,8 @@ Here you can find the lecture slides and other materials for each day of the cou
     transition: all 0.2s ease;
 }
 .resource-row:hover {
-    background-color: rgba(255, 255, 255, 0.05);
-    border-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.04);
+    border-color: rgba(255, 255, 255, 0.15);
     transform: translateX(4px);
 }
 .track-foundations {
@@ -43,10 +43,12 @@ Here you can find the lecture slides and other materials for each day of the cou
     border-left: 4px solid #3498db;
 }
 .day-title {
-    margin-bottom: 0;
-    font-weight: 500;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-weight: 600;
     color: #fff;
-    font-size: 1.05rem;
+    font-size: 1.1rem;
+    line-height: 1.2 !important;
 }
 .badge-day {
     min-width: 65px;
@@ -55,6 +57,7 @@ Here you can find the lecture slides and other materials for each day of the cou
     padding: 0.35em 0.65em;
     font-weight: 700;
     border-radius: 4px;
+    line-height: 1.2 !important;
 }
 </style>
 
