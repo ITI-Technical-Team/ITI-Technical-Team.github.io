@@ -83,8 +83,14 @@ Here you can find the lecture-specific tasks and practice exercises for each day
       <span class="badge bg-danger badge-day me-3">Day 3</span>
       <h5 class="day-title">C++ Basics I</h5>
     </div>
-    <div class="text-secondary small">
-      <em>To be announced...</em>
+    <div class="d-flex flex-wrap gap-2 justify-content-end">
+      <a href="{{ '/materials/tasks/day-3/calculator' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-2 py-1" style="font-size: 0.75rem;">Calculator</a>
+      <a href="{{ '/materials/tasks/day-3/rectangle-area' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-2 py-1" style="font-size: 0.75rem;">Rectangle Area</a>
+      <a href="{{ '/materials/tasks/day-3/circle' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-2 py-1" style="font-size: 0.75rem;">Circle</a>
+      <a href="{{ '/materials/tasks/day-3/compare-numbers' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-2 py-1" style="font-size: 0.75rem;">Compare Numbers</a>
+      <a href="{{ '/materials/tasks/day-3/yes-no' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-2 py-1" style="font-size: 0.75rem;">Yes or No</a>
+      <a href="{{ '/materials/tasks/day-3/guess-number' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-2 py-1" style="font-size: 0.75rem;">Guess Number</a>
+      <a href="{{ '/materials/tasks/day-3/min-max' | relative_url }}" class="btn btn-sm btn-outline-light rounded-pill px-2 py-1" style="font-size: 0.75rem;">Min Max</a>
     </div>
   </div>
   <div class="resource-row track-foundations">
