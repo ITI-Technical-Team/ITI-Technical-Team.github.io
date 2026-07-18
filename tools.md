@@ -43,6 +43,9 @@ Usage: `check50 iti-technical-team/problemset/pset/week_number/problem_name`
 Submits your completed code  
 Usage: `submit50 iti-technical-team/problemset/pset/week_number/problem_name`
 
+> [!TIP]
+> You can use the copy icon at the top-right of any code block on this site to copy commands. To paste them into your terminal, use `Ctrl + Shift + V` (on Windows/Linux) or `Cmd + V` (on macOS).
+
 ## Documentation
 
 <https://cs50.readthedocs.io/>
