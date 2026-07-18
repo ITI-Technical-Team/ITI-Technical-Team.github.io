@@ -1,8 +1,8 @@
 ---
-title: "Day 2 Task 1: Count Even Numbers"
+title: "Playground"
 ---
 
-# Day 2 Task 1: Count Even Numbers
+# Playground
 
 ## Problem Setup
 - Open [Scratch](https://scratch.mit.edu/projects/editor/)
@@ -11,10 +11,12 @@ title: "Day 2 Task 1: Count Even Numbers"
 
 ## Problem
 
-Create a Scratch project where the sprite counts and says the **even numbers from 1 to 100**.
+Create a Scratch project that contains at least **1 loop** and **1 conditional** block.
+
+Make sure your sprite does something interesting using these blocks!
 
 ## Submit Your Code
 
 Please upload your `.sb3` file using the following form:
 
-[Day2 Task1 Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/2/day2_task1)
+[Playground Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/1/playground)

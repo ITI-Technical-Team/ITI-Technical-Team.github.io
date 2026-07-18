@@ -1,8 +1,8 @@
 ---
-title: "Day 2 Task 4: Dialogue Project"
+title: "Dialogue"
 ---
 
-# Day 2 Task 4: Dialogue Project
+# Dialogue
 
 ## Problem Setup
 - Open [Scratch](https://scratch.mit.edu/projects/editor/)
@@ -20,4 +20,4 @@ Create a Scratch project with the following requirements:
 
 Please upload your `.sb3` file using the following form:
 
-[Day2 Task4 Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/2/day2_task4)
+[Dialogue Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/2/dialogue)

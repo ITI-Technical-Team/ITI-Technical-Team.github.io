@@ -1,8 +1,8 @@
 ---
-title: "Day 1 Task 2: Function with Loop and Conditional"
+title: "Procedures"
 ---
 
-# Day 1 Task 2: Function with Loop and Conditional
+# Procedures
 
 ## Problem Setup
 - Open [Scratch](https://scratch.mit.edu/projects/editor/)
@@ -17,4 +17,4 @@ Create a Scratch project that defines a **custom block (function)**. Inside this
 
 Please upload your `.sb3` file using the following form:
 
-[Day1 Task2 Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/1/day1_task2)
+[Procedures Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/1/procedures)

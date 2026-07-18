@@ -1,8 +1,8 @@
 ---
-title: "Day 2 Task 2: Space Key Logic"
+title: "Events"
 ---
 
-# Day 2 Task 2: Space Key Logic
+# Events
 
 ## Problem Setup
 - Open [Scratch](https://scratch.mit.edu/projects/editor/)
@@ -19,4 +19,4 @@ Create a Scratch project with the following logic:
 
 Please upload your `.sb3` file using the following form:
 
-[Day2 Task2 Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/2/day2_task2)
+[Events Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/2/events)

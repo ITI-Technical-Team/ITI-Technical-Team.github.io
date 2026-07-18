@@ -1,8 +1,8 @@
 ---
-title: "Day 1 Task 3: Function and Conditional"
+title: "Parameters"
 ---
 
-# Day 1 Task 3: Function and Conditional
+# Parameters
 
 ## Problem Setup
 - Open [Scratch](https://scratch.mit.edu/projects/editor/)
@@ -11,10 +11,11 @@ title: "Day 1 Task 3: Function and Conditional"
 
 ## Problem
 
-Create a Scratch project that contains at least **one custom block (function)** and **1 conditional** block.
+Create a **custom block** (via Make a Block) that takes exactly **one input (n)**.
+When called, this block should make the sprite **move (n) steps** and **wait one second**.
 
 ## Submit Your Code
 
 Please upload your `.sb3` file using the following form:
 
-[Day1 Task3 Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/1/day1_task3)
+[Parameters Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/2/parameters)

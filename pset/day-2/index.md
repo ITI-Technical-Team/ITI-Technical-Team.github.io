@@ -4,7 +4,7 @@ title: "Day 2 – Scratch II"
 
 # Day 2 – Scratch II
 
-* [Task 1]({{ "/pset/day-2/day2_task1" | relative_url }})
-* [Task 2]({{ "/pset/day-2/day2_task2" | relative_url }})
-* [Task 3]({{ "/pset/day-2/day2_task3" | relative_url }})
-* [Task 4]({{ "/pset/day-2/day2_task4" | relative_url }})
+* [Counting]({{ "/pset/day-2/counting" | relative_url }})
+* [Events]({{ "/pset/day-2/events" | relative_url }})
+* [Parameters]({{ "/pset/day-2/parameters" | relative_url }})
+* [Dialogue]({{ "/pset/day-2/dialogue" | relative_url }})

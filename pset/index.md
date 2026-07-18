@@ -5,15 +5,15 @@ title: Problem Sets
 # Problem Sets
 
 ## [Day 1 – Scratch I]({{ "/pset/day-1" | relative_url }})
-* [Task 1]({{ "/pset/day-1/day1_task1" | relative_url }})
-* [Task 2]({{ "/pset/day-1/day1_task2" | relative_url }})
-* [Task 3]({{ "/pset/day-1/day1_task3" | relative_url }})
+* [Playground]({{ "/pset/day-1/playground" | relative_url }})
+* [Procedures]({{ "/pset/day-1/procedures" | relative_url }})
+* [Interaction]({{ "/pset/day-1/interaction" | relative_url }})
 
 ## [Day 2 – Scratch II]({{ "/pset/day-2" | relative_url }})
-* [Task 1]({{ "/pset/day-2/day2_task1" | relative_url }})
-* [Task 2]({{ "/pset/day-2/day2_task2" | relative_url }})
-* [Task 3]({{ "/pset/day-2/day2_task3" | relative_url }})
-* [Task 4]({{ "/pset/day-2/day2_task4" | relative_url }})
+* [Counting]({{ "/pset/day-2/counting" | relative_url }})
+* [Events]({{ "/pset/day-2/events" | relative_url }})
+* [Parameters]({{ "/pset/day-2/parameters" | relative_url }})
+* [Dialogue]({{ "/pset/day-2/dialogue" | relative_url }})
 
 ## [Day 3 – C++ Basics I]({{ "/pset/day-3" | relative_url }})
 * [Hello]({{ "/pset/day-3/hello" | relative_url }})

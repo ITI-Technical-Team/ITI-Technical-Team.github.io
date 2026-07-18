@@ -1,8 +1,8 @@
 ---
-title: "Day 1 Task 1: Loop and Conditional"
+title: "Interaction"
 ---
 
-# Day 1 Task 1: Loop and Conditional
+# Interaction
 
 ## Problem Setup
 - Open [Scratch](https://scratch.mit.edu/projects/editor/)
@@ -11,12 +11,10 @@ title: "Day 1 Task 1: Loop and Conditional"
 
 ## Problem
 
-Create a Scratch project that contains at least **1 loop** and **1 conditional** block.
-
-Make sure your sprite does something interesting using these blocks!
+Create a Scratch project that contains at least **one custom block (function)** and **1 conditional** block.
 
 ## Submit Your Code
 
 Please upload your `.sb3` file using the following form:
 
-[Day1 Task1 Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/1/day1_task1)
+[Interaction Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/1/interaction)
