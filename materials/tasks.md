@@ -35,8 +35,14 @@ Here you can find the lecture-specific tasks and practice exercises for each day
 .track-algorithms {
     border-left: 4px solid #2ecc71;
 }
+.track-databases {
+    border-left: 4px solid #9b59b6;
+}
 .track-web {
     border-left: 4px solid #3498db;
+}
+.bg-purple {
+    background-color: #9b59b6 !important;
 }
 .day-title {
     margin: 0 !important;
@@ -308,25 +314,26 @@ Here you can find the lecture-specific tasks and practice exercises for each day
       <em>To be announced...</em>
     </div>
   </div>
-  <h3 class="track-header">Databases & Web Development</h3>
-  <div class="resource-row track-web align-items-center justify-content-between">
+  <h3 class="track-header">Databases</h3>
+  <div class="resource-row track-databases align-items-center justify-content-between">
     <div class="d-flex align-items-center">
-      <span class="badge bg-primary badge-day me-3">Day 10</span>
+      <span class="badge bg-purple badge-day me-3">Day 10</span>
       <h5 class="day-title">Python & CSV</h5>
     </div>
     <div class="text-secondary small">
       <em>To be announced...</em>
     </div>
   </div>
-  <div class="resource-row track-web align-items-center justify-content-between">
+  <div class="resource-row track-databases align-items-center justify-content-between">
     <div class="d-flex align-items-center">
-      <span class="badge bg-primary badge-day me-3">Day 11</span>
+      <span class="badge bg-purple badge-day me-3">Day 11</span>
       <h5 class="day-title">SQL</h5>
     </div>
     <div class="text-secondary small">
       <em>To be announced...</em>
     </div>
   </div>
+  <h3 class="track-header">Web Development</h3>
   <div class="resource-row track-web align-items-center justify-content-between">
     <div class="d-flex align-items-center">
       <span class="badge bg-primary badge-day me-3">Day 12</span>
