@@ -15,6 +15,8 @@ title: Absolute Value
 
 You are given two integers \\(a\\) and \\(b\\). Print the absolute value of \\(a - b\\).
 
+> **Note:** Do not use the `abs()` function. Compute the absolute value manually using an `if` statement.
+
 ## Input
 
 One line containing two integers \\(a\\) and \\(b\\) where \\(1 \\leq a, b \\leq 10^6\\).

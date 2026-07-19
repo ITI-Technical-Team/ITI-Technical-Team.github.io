@@ -83,13 +83,40 @@ Here you can find the lecture-specific tasks and practice exercises for each day
 
 <div class="mt-4">
   <h3 class="track-header">Programming Foundations</h3>
-  <div class="resource-row track-foundations align-items-center justify-content-between">
-    <div class="d-flex align-items-center">
-      <span class="badge bg-danger badge-day me-3">Day 1</span>
-      <h5 class="day-title">Scratch I</h5>
+  <div class="resource-row track-foundations flex-column align-items-start">
+    <div class="d-flex align-items-center justify-content-between w-100 row-header" data-bs-toggle="collapse" data-bs-target="#collapse-day-1" aria-expanded="false">
+      <div class="d-flex align-items-center">
+        <span class="badge bg-danger badge-day me-3">Day 1</span>
+        <h5 class="day-title">Scratch I</h5>
+      </div>
+      <div class="d-flex align-items-center">
+        <span class="text-secondary small me-2">4 Tasks</span>
+        <i class="fas fa-chevron-down text-secondary collapse-chevron"></i>
+      </div>
     </div>
-    <div class="text-secondary small">
-      <em>To be announced...</em>
+    <div class="collapse w-100 task-list-container mt-3" id="collapse-day-1">
+      <ul class="list-unstyled mb-0">
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-1/ask-user' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 1: Ask and Print
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-1/one-loop' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 2: One Loop
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-1/one-function' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 3: One Function
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-1/one-condition' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 4: One Condition
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
   <div class="resource-row track-foundations align-items-center justify-content-between">

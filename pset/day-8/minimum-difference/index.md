@@ -68,9 +68,9 @@ Print one integer: **the minimum absolute difference**
 
 - In the second example.
 
-- The minimum absolute difference is 4 (between 9 and 13).
+- The minimum absolute difference is 3 (between 1 and 4).
 
-- The output is 4.
+- The output is 3.
 
 ## Test Your Code
 
