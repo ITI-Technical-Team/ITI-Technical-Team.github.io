@@ -5,11 +5,9 @@ title: Ask and Print
 # Ask and Print
 
 ## Problem Setup
-- Create a folder called `ask-user` on your computer/IDE.
-- Open [Scratch](https://scratch.mit.edu/projects/editor/).
-- Create a project following the problem description below.
-- Once finished, save your project to your computer. Click **File > Save to your computer**.
-- Save the file as `project.sb3` inside your `ask-user` folder.
+- Open [Scratch](https://scratch.mit.edu/projects/editor/)
+- Follow the instructions below to create your project.
+- Once finished, save your project to your computer. Click **File > Save to your computer**. The file should end in `.sb3`.
 
 ## Problem
 Create a Scratch project where a sprite asks the user **"where are you from?"** and then **says (prints) the answer** back to the user.
@@ -18,16 +16,8 @@ Create a Scratch project where a sprite asks the user **"where are you from?"** 
 1. Use an **Ask and Wait** block to prompt the user. The prompt text must be exactly `"where are you from?"`.
 2. Use a **Say** block to display/print the answer entered by the user (using the **answer** block).
 
-## How to Test
-To test your code automatically with `check50`, run:
-
-```bash
-check50 iti-technical-team/problemset/pset/lec/1/ask-user
-```
-
 ## Submit Your Code
-Make sure you are in the `ask-user` directory, then run the following command:
 
-```bash
-submit50 iti-technical-team/problemset/pset/lec/1/ask-user
-```
+Please upload your `.sb3` file using the following form:
+
+[Ask and Print Submission Form](https://submit.cs50.io/upload/iti-technical-team/Problemset/pset/lec/1/ask-user)
