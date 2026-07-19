@@ -268,13 +268,35 @@ Here you can find the lecture-specific tasks and practice exercises for each day
       </ul>
     </div>
   </div>
-  <div class="resource-row track-foundations align-items-center justify-content-between">
-    <div class="d-flex align-items-center">
-      <span class="badge bg-danger badge-day me-3">Day 5</span>
-      <h5 class="day-title">Arrays</h5>
+  <div class="resource-row track-foundations flex-column align-items-start">
+    <div class="d-flex align-items-center justify-content-between w-100 row-header" data-bs-toggle="collapse" data-bs-target="#collapse-day-5" aria-expanded="false">
+      <div class="d-flex align-items-center">
+        <span class="badge bg-danger badge-day me-3">Day 5</span>
+        <h5 class="day-title">Arrays</h5>
+      </div>
+      <div class="d-flex align-items-center">
+        <span class="text-secondary small me-2">3 Tasks</span>
+        <i class="fas fa-chevron-down text-secondary collapse-chevron"></i>
+      </div>
     </div>
-    <div class="text-secondary small">
-      <em>To be announced...</em>
+    <div class="collapse w-100 task-list-container mt-3" id="collapse-day-5">
+      <ul class="list-unstyled mb-0">
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-5/scores-greater-than-10' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 1: Scores Greater than 10
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-5/score-average' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 2: Score Average
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-5/sort-descending' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 3: Sort Descending
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
   <div class="resource-row track-foundations align-items-center justify-content-between">
