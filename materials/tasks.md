@@ -345,13 +345,40 @@ Here you can find the lecture-specific tasks and practice exercises for each day
       </ul>
     </div>
   </div>
-  <div class="resource-row track-algorithms align-items-center justify-content-between">
-    <div class="d-flex align-items-center">
-      <span class="badge bg-success badge-day me-3">Day 8</span>
-      <h5 class="day-title">Algorithms II</h5>
+  <div class="resource-row track-algorithms flex-column align-items-start">
+    <div class="d-flex align-items-center justify-content-between w-100 row-header" data-bs-toggle="collapse" data-bs-target="#collapse-day-8" aria-expanded="false">
+      <div class="d-flex align-items-center">
+        <span class="badge bg-success badge-day me-3">Day 8</span>
+        <h5 class="day-title">Algorithms II</h5>
+      </div>
+      <div class="d-flex align-items-center">
+        <span class="text-secondary small me-2">4 Tasks</span>
+        <i class="fas fa-chevron-down text-secondary collapse-chevron"></i>
+      </div>
     </div>
-    <div class="text-secondary small">
-      <em>To be announced...</em>
+    <div class="collapse w-100 task-list-container mt-3" id="collapse-day-8">
+      <ul class="list-unstyled mb-0">
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-8/largest-smallest' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #2ecc71;"></i>Task 1: Find Largest and Smallest Element
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-8/is-sorted' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #2ecc71;"></i>Task 2: Determine if Array is Sorted
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-8/insertion-sort-swaps' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #2ecc71;"></i>Task 3: Count Insertion Sort Swaps
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-8/find-duplicates' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #2ecc71;"></i>Task 4: Find Duplicate Elements
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
   <div class="resource-row track-algorithms align-items-center justify-content-between">
