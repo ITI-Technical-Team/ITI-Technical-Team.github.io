@@ -20,16 +20,13 @@ The program should:
 2. Read the `N` array elements from standard input.
 3. Call the `findMinimum` function to get the minimum value.
 4. Print the minimum value to standard output.
-
 ## Example
 Here is how the program should run. Inputs typed by the user are shown in **bold**.
 
-```text
-$ ./find-minimum
-**5**
-**1 7 7 15 10**
-1
-```
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ./find-minimum
+<b>5</b>
+<b>1 7 7 15 10</b>
+1</code></pre></div></div>
 
 ## How to Test
 To test your program manually, compile it with `make` and run it:

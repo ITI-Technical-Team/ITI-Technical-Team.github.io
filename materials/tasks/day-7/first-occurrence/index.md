@@ -25,13 +25,11 @@ The program should:
 ## Example
 Here is how the program should run. Inputs typed by the user are shown in **bold**.
 
-```text
-$ ./first-occurrence
-**5**
-**1 7 7 15 20**
-**7**
-1
-```
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ./first-occurrence
+<b>5</b>
+<b>1 7 7 15 20</b>
+<b>7</b>
+1</code></pre></div></div>
 
 ## How to Test
 To test your program manually, compile it with `make` and run it:
