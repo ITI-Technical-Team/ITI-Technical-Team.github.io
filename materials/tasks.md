@@ -309,13 +309,40 @@ Here you can find the lecture-specific tasks and practice exercises for each day
     </div>
   </div>
   <h3 class="track-header">Algorithms & Data Structures</h3>
-  <div class="resource-row track-algorithms align-items-center justify-content-between">
-    <div class="d-flex align-items-center">
-      <span class="badge bg-success badge-day me-3">Day 7</span>
-      <h5 class="day-title">Algorithms I</h5>
+  <div class="resource-row track-algorithms flex-column align-items-start">
+    <div class="d-flex align-items-center justify-content-between w-100 row-header" data-bs-toggle="collapse" data-bs-target="#collapse-day-7" aria-expanded="false">
+      <div class="d-flex align-items-center">
+        <span class="badge bg-success badge-day me-3">Day 7</span>
+        <h5 class="day-title">Algorithms I</h5>
+      </div>
+      <div class="d-flex align-items-center">
+        <span class="text-secondary small me-2">4 Tasks</span>
+        <i class="fas fa-chevron-down text-secondary collapse-chevron"></i>
+      </div>
     </div>
-    <div class="text-secondary small">
-      <em>To be announced...</em>
+    <div class="collapse w-100 task-list-container mt-3" id="collapse-day-7">
+      <ul class="list-unstyled mb-0">
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-7/count-even' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #2ecc71;"></i>Task 1: Count Even Numbers
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-7/find-minimum' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #2ecc71;"></i>Task 2: Find Minimum
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-7/first-occurrence' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #2ecc71;"></i>Task 3: Find First Occurrence
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-7/smallest-greater' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #2ecc71;"></i>Task 4: Find Smallest Element Greater Than
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
   <div class="resource-row track-algorithms align-items-center justify-content-between">
