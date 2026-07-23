@@ -413,13 +413,35 @@ Here you can find the lecture-specific tasks and practice exercises for each day
     </div>
   </div>
   <h3 class="track-header">Databases</h3>
-  <div class="resource-row track-databases align-items-center justify-content-between">
-    <div class="d-flex align-items-center">
-      <span class="badge bg-purple badge-day me-3">Day 10</span>
-      <h5 class="day-title">Python & CSV</h5>
+  <div class="resource-row track-databases flex-column align-items-start">
+    <div class="d-flex align-items-center justify-content-between w-100 row-header" data-bs-toggle="collapse" data-bs-target="#collapse-day-10" aria-expanded="false">
+      <div class="d-flex align-items-center">
+        <span class="badge bg-purple badge-day me-3">Day 10</span>
+        <h5 class="day-title">Python & CSV</h5>
+      </div>
+      <div class="d-flex align-items-center">
+        <span class="text-secondary small me-2">3 Tasks</span>
+        <i class="fas fa-chevron-down text-secondary collapse-chevron"></i>
+      </div>
     </div>
-    <div class="text-secondary small">
-      <em>To be announced...</em>
+    <div class="collapse w-100 task-list-container mt-3" id="collapse-day-10">
+      <ul class="list-unstyled mb-0">
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-10/csv-reader' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #9b59b6;"></i>Task 1: Read CSV Problem Column
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-10/csv-dictreader' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #9b59b6;"></i>Task 2: Count Languages with DictReader
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-10/csv-sorted' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #9b59b6;"></i>Task 3: Sort Language Frequencies
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
   <div class="resource-row track-databases align-items-center justify-content-between">
