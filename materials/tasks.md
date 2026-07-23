@@ -444,13 +444,45 @@ Here you can find the lecture-specific tasks and practice exercises for each day
       </ul>
     </div>
   </div>
-  <div class="resource-row track-databases align-items-center justify-content-between">
-    <div class="d-flex align-items-center">
-      <span class="badge bg-purple badge-day me-3">Day 11</span>
-      <h5 class="day-title">SQL</h5>
+  <div class="resource-row track-databases flex-column align-items-start">
+    <div class="d-flex align-items-center justify-content-between w-100 row-header" data-bs-toggle="collapse" data-bs-target="#collapse-day-11" aria-expanded="false">
+      <div class="d-flex align-items-center">
+        <span class="badge bg-purple badge-day me-3">Day 11</span>
+        <h5 class="day-title">SQL</h5>
+      </div>
+      <div class="d-flex align-items-center">
+        <span class="text-secondary small me-2">5 Tasks</span>
+        <i class="fas fa-chevron-down text-secondary collapse-chevron"></i>
+      </div>
     </div>
-    <div class="text-secondary small">
-      <em>To be announced...</em>
+    <div class="collapse w-100 task-list-container mt-3" id="collapse-day-11">
+      <ul class="list-unstyled mb-0">
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-11/usa-customers' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #9b59b6;"></i>Task 1: Retrieve USA Customers
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-11/order-amount' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #9b59b6;"></i>Task 2: Filter Orders by Amount
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-11/j-customers' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #9b59b6;"></i>Task 3: Find Customers Starting with J
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-11/total-spent' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #9b59b6;"></i>Task 4: Calculate Total Spent
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-11/customer-orders' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #9b59b6;"></i>Task 5: Display Customer Orders
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
   <h3 class="track-header">Web Development</h3>
