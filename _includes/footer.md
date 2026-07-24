@@ -1,5 +1,6 @@
 ***
 
-Built with ❤️ at [ITI](https://iti.gov.eg/)
+Developed by the **Technical Team**  
+[Information Technology Institute (ITI) - Suez Canal Branch](https://iti.gov.eg/)
 
-© 2025 Information Technology Institute
+© 2026 ITI Suez Canal. All rights reserved.
