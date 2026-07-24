@@ -1,5 +1,4 @@
 ---
-layout: home
 title: Alex Aug 2026
 ---
 
