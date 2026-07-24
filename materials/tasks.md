@@ -299,13 +299,40 @@ Here you can find the lecture-specific tasks and practice exercises for each day
       </ul>
     </div>
   </div>
-  <div class="resource-row track-foundations align-items-center justify-content-between">
-    <div class="d-flex align-items-center">
-      <span class="badge bg-danger badge-day me-3">Day 6</span>
-      <h5 class="day-title">Strings</h5>
+  <div class="resource-row track-foundations flex-column align-items-start">
+    <div class="d-flex align-items-center justify-content-between w-100 row-header" data-bs-toggle="collapse" data-bs-target="#collapse-day-6" aria-expanded="false">
+      <div class="d-flex align-items-center">
+        <span class="badge bg-danger badge-day me-3">Day 6</span>
+        <h5 class="day-title">Strings</h5>
+      </div>
+      <div class="d-flex align-items-center">
+        <span class="text-secondary small me-2">4 Tasks</span>
+        <i class="fas fa-chevron-down text-secondary collapse-chevron"></i>
+      </div>
     </div>
-    <div class="text-secondary small">
-      <em>To be announced...</em>
+    <div class="collapse w-100 task-list-container mt-3" id="collapse-day-6">
+      <ul class="list-unstyled mb-0">
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-6/substring-extractor' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 1: Substring Extractor
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-6/word-search' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 2: Word Search
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-6/censor-word' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 3: Censor Word
+          </a>
+        </li>
+        <li class="mb-2">
+          <a href="{{ '/materials/tasks/day-6/remove-vowels' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 4: Remove Vowels
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
   <h3 class="track-header">Algorithms & Data Structures</h3>
