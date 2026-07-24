@@ -2,10 +2,250 @@
 title: false
 ---
 
-# Hello, world!
+<style>
+.hero-section {
+    padding: 3rem 1.5rem;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(var(--bs-primary-rgb), 0.05) 0%, rgba(var(--bs-body-color-rgb), 0.02) 100%);
+    border: 1px solid var(--bs-border-color);
+    border-radius: 12px;
+    margin-bottom: 2.5rem;
+}
+.hero-title {
+    font-size: 2.75rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    background: linear-gradient(90deg, #b3001e 0%, #e74c3c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-subtitle {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+    opacity: 0.85;
+    line-height: 1.6;
+}
+.hero-ctas {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.btn-hero-primary {
+    background-color: #b3001e !important;
+    border-color: #b3001e !important;
+    color: #ffffff !important;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: all 0.2s ease;
+    text-decoration: none !important;
+}
+.btn-hero-primary:hover {
+    background-color: #9e0018 !important;
+    border-color: #9e0018 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(179, 0, 30, 0.2);
+}
+.btn-hero-secondary {
+    background-color: transparent !important;
+    border: 1.5px solid var(--bs-border-color) !important;
+    color: var(--bs-body-color) !important;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: all 0.2s ease;
+    text-decoration: none !important;
+}
+.btn-hero-secondary:hover {
+    background-color: rgba(var(--bs-body-color-rgb), 0.05) !important;
+    border-color: rgba(var(--bs-body-color-rgb), 0.3) !important;
+    transform: translateY(-2px);
+}
 
-This is ITI CS50.
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 3rem;
+}
+.stat-card {
+    background: rgba(var(--bs-body-color-rgb), 0.015);
+    border: 1px solid var(--bs-border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+}
+.stat-number {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #b3001e;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+.stat-label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    opacity: 0.9;
+    margin-bottom: 0.25rem;
+}
+.stat-desc {
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
 
-<div align="center">
-  <img src="/assets/images/iti-logo.png" alt="ITI Logo">
+.section-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: #b3001e;
+    border-radius: 2px;
+}
+
+.tracks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+.track-card {
+    background: rgba(var(--bs-body-color-rgb), 0.02);
+    border: 1px solid var(--bs-border-color);
+    border-radius: 8px;
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+.track-card:hover {
+    transform: translateY(-4px);
+    background: rgba(var(--bs-body-color-rgb), 0.04);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+.track-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.track-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--bs-heading-color);
+}
+.track-desc {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    line-height: 1.5;
+}
+
+.overview-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    background: rgba(var(--bs-body-color-rgb), 0.01);
+    border: 1px solid var(--bs-border-color);
+    border-radius: 12px;
+    padding: 2rem;
+}
+.overview-image {
+    flex: 1 1 200px;
+    display: flex;
+    justify-content: center;
+}
+.overview-logo {
+    max-width: 180px;
+    height: auto;
+    filter: drop-shadow(0 4px 12px rgba(0,0,0,0.1));
+    transition: transform 0.3s ease;
+}
+.overview-logo:hover {
+    transform: scale(1.05);
+}
+.overview-content {
+    flex: 2 1 400px;
+}
+.overview-content h3 {
+    margin-top: 0;
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+.overview-content p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    opacity: 0.85;
+    margin-bottom: 0;
+}
+</style>
+
+<div class="hero-section">
+    <h1 class="hero-title">Welcome to CS50 at ITI</h1>
+    <p class="hero-subtitle">An introduction to the intellectual enterprises of computer science and the art of programming, customized for professional cohort tracks.</p>
+    <div class="hero-ctas">
+        <a href="{{ '/materials/' | relative_url }}" class="btn-hero-primary">Get Started</a>
+        <a href="{{ '/syllabus/' | relative_url }}" class="btn-hero-secondary">Syllabus</a>
+    </div>
+</div>
+
+<div class="stats-grid">
+    <div class="stat-card">
+        <div class="stat-number">16</div>
+        <div class="stat-label">Intensive Days</div>
+        <div class="stat-desc">Structured learning modules</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-number">24+</div>
+        <div class="stat-label">Practice Tasks</div>
+        <div class="stat-desc">Hands-on coding exercises</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Automated Grading</div>
+        <div class="stat-desc">Instant check50 feedback</div>
+    </div>
+</div>
+
+<h2 class="section-title">What You Will Learn</h2>
+
+<div class="tracks-grid">
+    <div class="track-card" style="border-top: 4px solid #e74c3c;">
+        <div class="track-icon text-danger"><i class="fas fa-shapes"></i></div>
+        <div class="track-title">Scratch & Logic</div>
+        <div class="track-desc">Master foundational concepts like variables, loops, conditional branches, functions, and events in a visual framework.</div>
+    </div>
+    <div class="track-card" style="border-top: 4px solid #2ecc71;">
+        <div class="track-icon text-success"><i class="fas fa-code"></i></div>
+        <div class="track-title">Fundamentals of C++</div>
+        <div class="track-desc">Build a strong code foundation with compilation, static variables, memory, sorting, search algorithms, and file structures.</div>
+    </div>
+    <div class="track-card" style="border-top: 4px solid #3498db;">
+        <div class="track-icon text-info"><i class="fas fa-globe"></i></div>
+        <div class="track-title">Interactive Web Stack</div>
+        <div class="track-desc">Design structured web layouts using HTML5, configure responsive stylesheets with CSS3, and manage user interactions with JavaScript DOM events.</div>
+    </div>
+</div>
+
+<div class="overview-container">
+    <div class="overview-image">
+        <img src="{{ '/assets/images/iti-logo.png' | relative_url }}" alt="ITI Logo" class="overview-logo">
+    </div>
+    <div class="overview-content">
+        <h3>About the Program</h3>
+        <p>This program is a professional collaboration belonging to the Information Technology Institute (ITI). Administered and mentored by the Suez Canal Branch Technical Team, the course offers an intensive, customized curriculum adapted from Harvard University's renowned CS50x introduction to computer science. Our goal is to empower students with robust algorithmic thinking, code literacy, and software engineering foundations.</p>
+    </div>
 </div>
