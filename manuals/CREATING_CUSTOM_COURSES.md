@@ -22,7 +22,7 @@ Create the homepage for the cohort. Do NOT set a custom layout (like `layout: ho
 title: Course Name (e.g., Alex Aug 2026)
 ---
 
-# Welcome to CS50 at ITI
+# Welcome to ITI CS50
 ## Cohort Title
 
 Introduce the custom track, cohort details, and explain what topics are covered. 

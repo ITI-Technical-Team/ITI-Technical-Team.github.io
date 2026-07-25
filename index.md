@@ -240,7 +240,7 @@ body.theme-dark :root {
 </style>
 
 <div class="hero-section">
-    <h1 class="hero-title">Welcome to CS50 at ITI</h1>
+    <h1 class="hero-title">Welcome to ITI CS50</h1>
     <p class="hero-subtitle">An introduction to the intellectual enterprises of computer science and the art of programming, customized for professional cohort tracks.</p>
     <div class="hero-ctas">
         <a href="{{ '/materials/' | relative_url }}" class="btn-hero-primary">Get Started</a>

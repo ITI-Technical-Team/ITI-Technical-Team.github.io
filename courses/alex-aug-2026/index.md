@@ -2,7 +2,7 @@
 title: Alex Aug 2026
 ---
 
-# Welcome to CS50 at ITI
+# Welcome to ITI CS50
 ## Alexandria - August 2026 Cohort
 
 This is the homepage for the custom **Alexandria August 2026** cohort. 
