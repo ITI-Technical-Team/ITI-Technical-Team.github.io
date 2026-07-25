@@ -8,6 +8,29 @@ permalink: /tools/faq/
 Find step-by-step guides for getting started with ITI CS50, setting up your environment, and submitting your assignments.
 
 <style>
+:root {
+    --faq-badge-bg: rgba(165, 28, 48, 0.1);
+    --faq-badge-color: #a51c30;
+    --faq-icon-color: #a51c30;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --faq-badge-bg: rgba(255, 107, 129, 0.15);
+        --faq-badge-color: #ff6b81;
+        --faq-icon-color: #ff6b81;
+    }
+}
+
+html[data-theme="dark"] :root,
+html[data-bs-theme="dark"] :root,
+body.dark :root,
+body.theme-dark :root {
+    --faq-badge-bg: rgba(255, 107, 129, 0.15);
+    --faq-badge-color: #ff6b81;
+    --faq-icon-color: #ff6b81;
+}
+
 .faq-section {
     margin-top: 2rem;
     margin-bottom: 3rem;
@@ -75,12 +98,12 @@ Find step-by-step guides for getting started with ITI CS50, setting up your envi
 
 .faq-badge {
     display: inline-block;
-    padding: 0.25rem 0.65rem;
-    font-size: 0.8rem;
-    font-weight: 600;
+    padding: 0.3rem 0.75rem;
+    font-size: 0.85rem;
+    font-weight: 700;
     border-radius: 20px;
-    background: rgba(165, 28, 48, 0.1);
-    color: #a51c30;
+    background: var(--faq-badge-bg);
+    color: var(--faq-badge-color);
     margin-bottom: 0.75rem;
 }
 
@@ -104,7 +127,7 @@ Find step-by-step guides for getting started with ITI CS50, setting up your envi
     <!-- Question 1 -->
     <details class="faq-item" open>
         <summary>
-            <span><i class="fab fa-github" style="margin-right: 0.75rem; color: #a51c30;"></i> How to Create a GitHub Account</span>
+            <span><i class="fab fa-github" style="margin-right: 0.75rem; color: var(--faq-icon-color);"></i> How to Create a GitHub Account</span>
         </summary>
         <div class="faq-content">
             <div class="faq-badge">Step 1: Account Setup</div>
@@ -125,15 +148,15 @@ Find step-by-step guides for getting started with ITI CS50, setting up your envi
     <!-- Question 2 -->
     <details class="faq-item">
         <summary>
-            <span><i class="fas fa-envelope-open-text" style="margin-right: 0.75rem; color: #a51c30;"></i> How to Join the Course & Accept Invitations</span>
+            <span><i class="fas fa-envelope-open-text" style="margin-right: 0.75rem; color: var(--faq-icon-color);"></i> How to Join the Course & Accept Invitations</span>
         </summary>
         <div class="faq-content">
             <div class="faq-badge">Course Registration</div>
             <p>When starting a cohort or assignment track, your instructors will provide a GitHub Classroom invitation link.</p>
             <ol class="faq-step-list">
                 <li>Click the course invitation link provided by your ITI instructor.</li>
-                <li>Sign in using your **GitHub account** if you are not already logged in.</li>
-                <li>Click the green button labeled **"Accept this assignment"** (or Accept Invitation).</li>
+                <li>Sign in using your <strong>GitHub account</strong> if you are not already logged in.</li>
+                <li>Click the green button labeled <strong>"Accept this assignment"</strong> (or Accept Invitation).</li>
                 <li>Wait a few seconds while GitHub creates your repository copy.</li>
                 <li>Once complete, refresh the page to view your private repository link.</li>
             </ol>
@@ -143,16 +166,16 @@ Find step-by-step guides for getting started with ITI CS50, setting up your envi
     <!-- Question 3 -->
     <details class="faq-item">
         <summary>
-            <span><i class="fas fa-terminal" style="margin-right: 0.75rem; color: #a51c30;"></i> How to Log in to cs50.dev (VS Code in Browser vs Desktop)</span>
+            <span><i class="fas fa-terminal" style="margin-right: 0.75rem; color: var(--faq-icon-color);"></i> How to Log in to cs50.dev (VS Code in Browser vs Desktop)</span>
         </summary>
         <div class="faq-content">
             <div class="faq-badge">Development Environment</div>
             <p>CS50 provides a cloud-based Visual Studio Code workspace pre-configured with C++, HTML/CSS/JS tools, <code>check50</code>, and <code>submit50</code>.</p>
 
-            <h4>1. Logging in via Browser</h4>
+            <h4 style="margin-top: 1rem;">1. Logging in via Browser</h4>
             <ol class="faq-step-list">
                 <li>Open your browser and navigate to <a href="https://cs50.dev" target="_blank" rel="noopener">cs50.dev</a>.</li>
-                <li>Click the main **"Log in with GitHub"** button.</li>
+                <li>Click the main <strong>"Log in with GitHub"</strong> button.</li>
                 <li>Authorize CS50 to access your GitHub account. Your cloud IDE environment will launch automatically in the browser!</li>
             </ol>
 
@@ -167,17 +190,17 @@ Find step-by-step guides for getting started with ITI CS50, setting up your envi
     <!-- Question 4 -->
     <details class="faq-item">
         <summary>
-            <span><i class="fas fa-desktop" style="margin-right: 0.75rem; color: #a51c30;"></i> How to Install VS Code Desktop</span>
+            <span><i class="fas fa-desktop" style="margin-right: 0.75rem; color: var(--faq-icon-color);"></i> How to Install VS Code Desktop</span>
         </summary>
         <div class="faq-content">
             <div class="faq-badge">Local Tools</div>
             <p>If you prefer working in VS Code on your local machine instead of the web browser, follow these steps to install VS Code Desktop:</p>
             <ol class="faq-step-list">
                 <li>Visit the official website: <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">code.visualstudio.com</a>.</li>
-                <li>Click **Download** for your operating system (Windows, macOS, or Linux).</li>
+                <li>Click <strong>Download</strong> for your operating system (Windows, macOS, or Linux).</li>
                 <li>Run the installer executable and follow the setup wizard (accept agreement, select default settings).</li>
                 <li>Open VS Code Desktop once installation completes.</li>
-                <li>To connect to CS50: install the official **GitHub Codespaces** extension in VS Code, sign in with GitHub, and open your <code>cs50.dev</code> codespace!</li>
+                <li>To connect to CS50: install the official <strong>GitHub Codespaces</strong> extension in VS Code, sign in with GitHub, and open your <code>cs50.dev</code> codespace!</li>
             </ol>
         </div>
     </details>
