@@ -21,11 +21,11 @@ Here you can access all the learning resources, slide presentations, practice ta
 /* Dark mode overrides (by preferences or selectors) */
 @media (prefers-color-scheme: dark) {
     :root {
-        --accent-color: #ff4d6d;
+        --accent-color: #a51c30;
         --card-bg: rgba(255, 255, 255, 0.05);
         --card-border: rgba(255, 255, 255, 0.12);
         --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-        --icon-red: #ff4d6d;
+        --icon-red: #c0392b;
         --icon-blue: #388bfd;
         --icon-green: #3fb950;
     }
@@ -35,11 +35,11 @@ html[data-theme="dark"] :root,
 html[data-bs-theme="dark"] :root,
 body.dark :root,
 body.theme-dark :root {
-    --accent-color: #ff4d6d;
+    --accent-color: #a51c30;
     --card-bg: rgba(255, 255, 255, 0.05);
     --card-border: rgba(255, 255, 255, 0.12);
     --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-    --icon-red: #ff4d6d;
+    --icon-red: #c0392b;
     --icon-blue: #388bfd;
     --icon-green: #3fb950;
 }
