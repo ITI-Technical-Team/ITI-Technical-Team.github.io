@@ -8,6 +8,42 @@ permalink: /materials/
 Here you can access all the learning resources, slide presentations, practice tasks, and recordings for the course.
 
 <style>
+:root {
+    --accent-color: #b3001e;
+    --card-bg: rgba(var(--bs-body-color-rgb), 0.02);
+    --card-border: var(--bs-border-color);
+    --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    --icon-red: #e74c3c;
+    --icon-blue: #3498db;
+    --icon-green: #2ecc71;
+}
+
+/* Dark mode overrides (by preferences or selectors) */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --accent-color: #ff4d6d;
+        --card-bg: rgba(255, 255, 255, 0.05);
+        --card-border: rgba(255, 255, 255, 0.12);
+        --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        --icon-red: #ff4d6d;
+        --icon-blue: #388bfd;
+        --icon-green: #3fb950;
+    }
+}
+
+html[data-theme="dark"] :root,
+html[data-bs-theme="dark"] :root,
+body.dark :root,
+body.theme-dark :root {
+    --accent-color: #ff4d6d;
+    --card-bg: rgba(255, 255, 255, 0.05);
+    --card-border: rgba(255, 255, 255, 0.12);
+    --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    --icon-red: #ff4d6d;
+    --icon-blue: #388bfd;
+    --icon-green: #3fb950;
+}
+
 .materials-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -15,8 +51,9 @@ Here you can access all the learning resources, slide presentations, practice ta
     margin-top: 2rem;
 }
 .material-card {
-    background: rgba(var(--bs-body-color-rgb), 0.02);
-    border: 1px solid var(--bs-border-color);
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    box-shadow: var(--card-shadow);
     border-radius: 8px;
     padding: 1.75rem;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -28,7 +65,7 @@ Here you can access all the learning resources, slide presentations, practice ta
 }
 .material-card:hover {
     background: rgba(var(--bs-body-color-rgb), 0.05);
-    border-color: var(--bs-primary);
+    border-color: var(--accent-color);
     transform: translateY(-4px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
 }
@@ -54,7 +91,7 @@ Here you can access all the learning resources, slide presentations, practice ta
     font-size: 0.9rem;
     display: flex;
     align-items: center;
-    color: var(--bs-primary);
+    color: var(--accent-color);
     transition: gap 0.2s ease;
     gap: 4px;
 }
@@ -71,7 +108,7 @@ Here you can access all the learning resources, slide presentations, practice ta
 
 <div class="materials-grid">
     <a href="{{ '/materials/slides/' | relative_url }}" class="material-card">
-        <div class="card-icon text-danger">
+        <div class="card-icon" style="color: var(--icon-red);">
             <i class="far fa-file-pdf"></i>
         </div>
         <div class="card-title">Lecture PDFs</div>
@@ -82,7 +119,7 @@ Here you can access all the learning resources, slide presentations, practice ta
     </a>
 
     <a href="{{ '/materials/tasks/' | relative_url }}" class="material-card">
-        <div class="card-icon text-info">
+        <div class="card-icon" style="color: var(--icon-blue);">
             <i class="fas fa-tasks"></i>
         </div>
         <div class="card-title">Lecture Tasks</div>
@@ -93,7 +130,7 @@ Here you can access all the learning resources, slide presentations, practice ta
     </a>
 
     <a href="{{ '/materials/recordings/' | relative_url }}" class="material-card">
-        <div class="card-icon text-success">
+        <div class="card-icon" style="color: var(--icon-green);">
             <i class="fas fa-video"></i>
         </div>
         <div class="card-title">Lecture Recordings</div>

@@ -3,11 +3,53 @@ title: false
 ---
 
 <style>
+:root {
+    --accent-color: #b3001e;
+    --accent-gradient: linear-gradient(90deg, #b3001e 0%, #e74c3c 100%);
+    --card-bg: rgba(var(--bs-body-color-rgb), 0.02);
+    --card-border: var(--bs-border-color);
+    --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    --track-red: #e74c3c;
+    --track-green: #2ecc71;
+    --track-blue: #3498db;
+    --logo-filter: drop-shadow(0 4px 12px rgba(0,0,0,0.1));
+}
+
+/* Dark mode overrides (by preferences or selectors) */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --accent-color: #ff4d6d;
+        --accent-gradient: linear-gradient(90deg, #ff4d6d 0%, #ff758f 100%);
+        --card-bg: rgba(255, 255, 255, 0.05);
+        --card-border: rgba(255, 255, 255, 0.12);
+        --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        --track-red: #ff4d6d;
+        --track-green: #3fb950;
+        --track-blue: #388bfd;
+        --logo-filter: drop-shadow(0 4px 16px rgba(255, 77, 109, 0.15));
+    }
+}
+
+html[data-theme="dark"] :root,
+html[data-bs-theme="dark"] :root,
+body.dark :root,
+body.theme-dark :root {
+    --accent-color: #ff4d6d;
+    --accent-gradient: linear-gradient(90deg, #ff4d6d 0%, #ff758f 100%);
+    --card-bg: rgba(255, 255, 255, 0.05);
+    --card-border: rgba(255, 255, 255, 0.12);
+    --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    --track-red: #ff4d6d;
+    --track-green: #3fb950;
+    --track-blue: #388bfd;
+    --logo-filter: drop-shadow(0 4px 16px rgba(255, 77, 109, 0.15));
+}
+
 .hero-section {
     padding: 3rem 1.5rem;
     text-align: center;
     background: linear-gradient(135deg, rgba(var(--bs-primary-rgb), 0.05) 0%, rgba(var(--bs-body-color-rgb), 0.02) 100%);
-    border: 1px solid var(--bs-border-color);
+    border: 1px solid var(--card-border);
     border-radius: 12px;
     margin-bottom: 2.5rem;
 }
@@ -16,7 +58,7 @@ title: false
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: 1rem;
-    background: linear-gradient(90deg, #b3001e 0%, #e74c3c 100%);
+    background: var(--accent-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -33,8 +75,8 @@ title: false
     gap: 1rem;
 }
 .btn-hero-primary {
-    background-color: #b3001e !important;
-    border-color: #b3001e !important;
+    background-color: var(--accent-color) !important;
+    border-color: var(--accent-color) !important;
     color: #ffffff !important;
     padding: 0.75rem 1.5rem;
     font-weight: 600;
@@ -43,14 +85,13 @@ title: false
     text-decoration: none !important;
 }
 .btn-hero-primary:hover {
-    background-color: #9e0018 !important;
-    border-color: #9e0018 !important;
+    filter: brightness(0.95);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(179, 0, 30, 0.2);
+    box-shadow: 0 4px 12px rgba(255, 77, 109, 0.2);
 }
 .btn-hero-secondary {
     background-color: transparent !important;
-    border: 1.5px solid var(--bs-border-color) !important;
+    border: 1.5px solid var(--card-border) !important;
     color: var(--bs-body-color) !important;
     padding: 0.75rem 1.5rem;
     font-weight: 600;
@@ -60,7 +101,7 @@ title: false
 }
 .btn-hero-secondary:hover {
     background-color: rgba(var(--bs-body-color-rgb), 0.05) !important;
-    border-color: rgba(var(--bs-body-color-rgb), 0.3) !important;
+    border-color: var(--accent-color) !important;
     transform: translateY(-2px);
 }
 
@@ -71,8 +112,9 @@ title: false
     margin-bottom: 3rem;
 }
 .stat-card {
-    background: rgba(var(--bs-body-color-rgb), 0.015);
-    border: 1px solid var(--bs-border-color);
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    box-shadow: var(--card-shadow);
     border-radius: 8px;
     padding: 1.5rem;
     text-align: center;
@@ -80,7 +122,7 @@ title: false
 .stat-number {
     font-size: 2.25rem;
     font-weight: 800;
-    color: #b3001e;
+    color: var(--accent-color);
     line-height: 1;
     margin-bottom: 0.5rem;
 }
@@ -111,7 +153,7 @@ title: false
     transform: translateX(-50%);
     width: 60px;
     height: 3px;
-    background-color: #b3001e;
+    background-color: var(--accent-color);
     border-radius: 2px;
 }
 
@@ -122,8 +164,9 @@ title: false
     margin-bottom: 3.5rem;
 }
 .track-card {
-    background: rgba(var(--bs-body-color-rgb), 0.02);
-    border: 1px solid var(--bs-border-color);
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    box-shadow: var(--card-shadow);
     border-radius: 8px;
     padding: 1.75rem;
     display: flex;
@@ -157,8 +200,9 @@ title: false
     flex-wrap: wrap;
     align-items: center;
     gap: 2rem;
-    background: rgba(var(--bs-body-color-rgb), 0.01);
-    border: 1px solid var(--bs-border-color);
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    box-shadow: var(--card-shadow);
     border-radius: 12px;
     padding: 2rem;
 }
@@ -170,7 +214,7 @@ title: false
 .overview-logo {
     max-width: 180px;
     height: auto;
-    filter: drop-shadow(0 4px 12px rgba(0,0,0,0.1));
+    filter: var(--logo-filter);
     transition: transform 0.3s ease;
 }
 .overview-logo:hover {
@@ -206,10 +250,10 @@ title: false
     <div class="stat-card">
         <div class="stat-number">16</div>
         <div class="stat-label">Intensive Days</div>
-        <div class="stat-desc">Structured learning modules</div>
+        <div class="stat-desc">Structured syllabus tracks</div>
     </div>
     <div class="stat-card">
-        <div class="stat-number">24+</div>
+        <div class="stat-number">65+</div>
         <div class="stat-label">Practice Tasks</div>
         <div class="stat-desc">Hands-on coding exercises</div>
     </div>
@@ -223,18 +267,18 @@ title: false
 <h2 class="section-title">What You Will Learn</h2>
 
 <div class="tracks-grid">
-    <div class="track-card" style="border-top: 4px solid #e74c3c;">
-        <div class="track-icon text-danger"><i class="fas fa-shapes"></i></div>
+    <div class="track-card" style="border-top: 4px solid var(--track-red);">
+        <div class="track-icon" style="color: var(--track-red);"><i class="fas fa-shapes"></i></div>
         <div class="track-title">Scratch & Logic</div>
         <div class="track-desc">Master foundational concepts like variables, loops, conditional branches, functions, and events in a visual framework.</div>
     </div>
-    <div class="track-card" style="border-top: 4px solid #2ecc71;">
-        <div class="track-icon text-success"><i class="fas fa-code"></i></div>
+    <div class="track-card" style="border-top: 4px solid var(--track-green);">
+        <div class="track-icon" style="color: var(--track-green);"><i class="fas fa-code"></i></div>
         <div class="track-title">Fundamentals of C++</div>
         <div class="track-desc">Build a strong code foundation with compilation, static variables, memory, sorting, search algorithms, and file structures.</div>
     </div>
-    <div class="track-card" style="border-top: 4px solid #3498db;">
-        <div class="track-icon text-info"><i class="fas fa-globe"></i></div>
+    <div class="track-card" style="border-top: 4px solid var(--track-blue);">
+        <div class="track-icon" style="color: var(--track-blue);"><i class="fas fa-globe"></i></div>
         <div class="track-title">Interactive Web Stack</div>
         <div class="track-desc">Design structured web layouts using HTML5, configure responsive stylesheets with CSS3, and manage user interactions with JavaScript DOM events.</div>
     </div>
