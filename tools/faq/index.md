@@ -82,7 +82,7 @@ body.theme-dark :root {
 }
 
 .faq-content {
-    padding: 0 1.5rem 1.5rem 1.5rem;
+    padding: 1.25rem 1.5rem 1.5rem 1.5rem;
     border-top: 1px solid rgba(var(--bs-body-color-rgb), 0.08);
     line-height: 1.6;
 }
