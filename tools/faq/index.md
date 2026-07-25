@@ -112,7 +112,7 @@ Find step-by-step guides for getting started with ITI CS50, setting up your envi
             <ol class="faq-step-list">
                 <li>Go to <a href="https://github.com/signup" target="_blank" rel="noopener">github.com/signup</a>.</li>
                 <li>Enter your primary email address and create a strong password.</li>
-                <li>Choose a professional username (e.g., <code>ahmed-hassan</code> or <code>youssef-elmasry</code>).</li>
+                <li>Choose a professional username (e.g., <code>alex-smith</code> or <code>john-doe</code>).</li>
                 <li>Verify your account via the code sent to your email.</li>
                 <li>Complete the quick account registration puzzle.</li>
             </ol>
