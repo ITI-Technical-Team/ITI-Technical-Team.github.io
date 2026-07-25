@@ -122,6 +122,7 @@
 
 - [**Final Gradebook**]({{ "/tools/gradebook" | relative_url }})
 - [**CS50 IDE**](https://cs50.dev)
+- [**FAQ**]({{ "/tools/faq" | relative_url }})
 
 {% else %}
 ***
@@ -305,4 +306,5 @@
 
 - [**Final Gradebook**]({{ "/tools/gradebook" | relative_url }})
 - [**CS50 IDE**](https://cs50.dev)
+- [**FAQ**]({{ "/tools/faq" | relative_url }})
 {% endif %}
