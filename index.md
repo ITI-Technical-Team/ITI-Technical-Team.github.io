@@ -244,7 +244,7 @@ body.theme-dark :root {
     <p class="hero-subtitle">An introduction to the intellectual enterprises of computer science and the art of programming, customized for professional cohort tracks.</p>
     <div class="hero-ctas">
         <a href="{{ '/materials/' | relative_url }}" class="btn-hero-primary">Get Started</a>
-        <a href="{{ '/syllabus/' | relative_url }}" class="btn-hero-secondary">Syllabus</a>
+        <a href="{{ '/materials/' | relative_url }}" class="btn-hero-secondary">Browse Materials</a>
     </div>
 </div>
 
