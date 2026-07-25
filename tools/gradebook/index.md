@@ -3,6 +3,29 @@ title: Final Gradebook
 ---
 
 <style>
+:root {
+    --gb-accent: #a51c30;
+    --gb-badge-bg: rgba(165, 28, 48, 0.1);
+    --gb-badge-border: rgba(165, 28, 48, 0.3);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --gb-accent: #ff6b81;
+        --gb-badge-bg: rgba(255, 107, 129, 0.15);
+        --gb-badge-border: rgba(255, 107, 129, 0.35);
+    }
+}
+
+html[data-theme="dark"] :root,
+html[data-bs-theme="dark"] :root,
+body.dark :root,
+body.theme-dark :root {
+    --gb-accent: #ff6b81;
+    --gb-badge-bg: rgba(255, 107, 129, 0.15);
+    --gb-badge-border: rgba(255, 107, 129, 0.35);
+}
+
 .gradebook-container {
     display: flex;
     flex-direction: column;
@@ -13,9 +36,9 @@ title: Final Gradebook
 }
 .gradebook-icon {
     font-size: 4rem;
-    color: #a51c30;
+    color: var(--gb-accent);
     margin-bottom: 1.5rem;
-    opacity: 0.85;
+    opacity: 0.9;
 }
 .gradebook-title {
     font-size: 2rem;
@@ -24,7 +47,7 @@ title: Final Gradebook
 }
 .gradebook-subtitle {
     font-size: 1.1rem;
-    opacity: 0.7;
+    opacity: 0.75;
     max-width: 480px;
     line-height: 1.6;
     margin-bottom: 2rem;
@@ -33,9 +56,9 @@ title: Final Gradebook
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    background: rgba(165, 28, 48, 0.1);
-    border: 1px solid rgba(165, 28, 48, 0.3);
-    color: #a51c30;
+    background: var(--gb-badge-bg);
+    border: 1px solid var(--gb-badge-border);
+    color: var(--gb-accent);
     border-radius: 30px;
     padding: 0.5rem 1.25rem;
     font-weight: 600;
