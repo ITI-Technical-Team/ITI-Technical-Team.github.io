@@ -152,13 +152,13 @@ body.theme-dark :root {
         </summary>
         <div class="faq-content">
             <div class="faq-badge">Course Registration</div>
-            <p>When starting a cohort or assignment track, your instructors will provide a GitHub Classroom invitation link.</p>
+            <p>Courses and submissions are managed via <a href="https://submit.cs50.io" target="_blank" rel="noopener">submit.cs50.io</a>. When starting a cohort, your ITI instructors will provide a course invitation link.</p>
             <ol class="faq-step-list">
-                <li>Click the course invitation link provided by your ITI instructor.</li>
-                <li>Sign in using your <strong>GitHub account</strong> if you are not already logged in.</li>
-                <li>Click the green button labeled <strong>"Accept this assignment"</strong> (or Accept Invitation).</li>
-                <li>Wait a few seconds while GitHub creates your repository copy.</li>
-                <li>Once complete, refresh the page to view your private repository link.</li>
+                <li>Click the course invitation link provided by your ITI instructor (which links to <code>submit.cs50.io</code>).</li>
+                <li>Sign in using your <strong>GitHub account</strong> when prompted.</li>
+                <li>Authorize <code>submit50</code> to connect with your GitHub account.</li>
+                <li>Click <strong>"Join Course"</strong> or <strong>"Accept Invitation"</strong> to complete your enrollment.</li>
+                <li>Once enrolled, you can submit your coursework anytime directly from your terminal using <code>submit50</code>!</li>
             </ol>
         </div>
     </details>
