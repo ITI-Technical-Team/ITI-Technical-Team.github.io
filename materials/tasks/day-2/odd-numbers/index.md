@@ -13,15 +13,18 @@ title: Odd Numbers
 Create a Scratch project where the sprite counts and says the **odd numbers from 1 to 9** (i.e. 1, 3, 5, 7, 9).
 
 ### Requirements:
-1. Use a **loop block** from the Control category (e.g. `repeat [5]`).
-2. Use a **variable** (e.g. `oddNumber`) to keep track of the current number.
-3. The **`Set` block** that initializes the variable **must be placed BEFORE (outside) the repeat loop** — not inside it. Placing it inside resets the variable every iteration.
-4. Use a **`Change` block** inside the loop to increment the variable by `2` each time.
-5. Use a **Say** block to display/print each number.
-6. The numbers said must be exactly `1`, `3`, `5`, `7`, and `9` in sequence.
+1. Use a loop block from the Control category (e.g. `repeat [5]`).
+2. Use a variable to keep track of the current number.
+3. Use a **Change** block inside the loop to increment the variable by `2` each time.
+4. Use a **Say** block to display/print each number.
 
-> [!WARNING]
-> **Common Mistake:** Do **NOT** place the `Set oddNumber to 1` block **inside** the `repeat` loop. If you do, the variable resets to `1` on every iteration, and the sprite will say `1` five times instead of odd numbers. Always initialize the variable **before** the loop begins.
+## Test Your Code
+
+Make sure you are in your `odd-numbers` folder, then run:
+
+```bash
+check50 iti-technical-team/problemset/pset/lec/2/odd-numbers
+```
 
 ## Submit Your Code
 
