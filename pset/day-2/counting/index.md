@@ -11,21 +11,18 @@ title: "Counting"
 
 ## Problem
 
-Create a Scratch project where the sprite counts and says the **even numbers from 2 to 100**.
+Create a Scratch project where the sprite counts and says the **even numbers from 2 to 100** (i.e. 2, 4, 6, … 100).
 
 ### Requirements:
-1. Use a loop block (e.g. `repeat [50]`) to repeat the counting.
-2. Use a variable to keep track of the current number.
-3. Use a **Change** block inside the loop to increment the variable by `2` each time.
-4. Use a **Say** block to display/print each even number.
+1. Use a **loop block** (e.g. `repeat [50]`) to repeat the counting.
+2. Use a **variable** (e.g. `evenNumber`) to keep track of the current number.
+3. The **`Set` block** that initializes the variable **must be placed BEFORE (outside) the repeat loop** — not inside it. Placing it inside resets the variable every iteration.
+4. Use a **`Change` block** inside the loop to increment the variable by `2` each time.
+5. Use a **Say** block to display/print each even number.
+6. The numbers said must be exactly `2`, `4`, `6`, … `100` in sequence.
 
-## Test Your Code
-
-Make sure you are in your `counting` folder, then run:
-
-```bash
-check50 iti-technical-team/problemset/pset/2/counting
-```
+> [!WARNING]
+> **Common Mistake:** Do **NOT** place the `Set evenNumber to 2` block **inside** the `repeat` loop. If you do, the variable resets to `2` on every iteration, and the sprite will say `2` fifty times instead of counting up. Always initialize the variable **before** the loop begins.
 
 ## Submit Your Code
 
