@@ -255,7 +255,7 @@ body.theme-dark :root {
         <div class="stat-desc">Structured syllabus tracks</div>
     </div>
     <div class="stat-card">
-        <div class="stat-number">65+</div>
+        <div class="stat-number">60+</div>
         <div class="stat-label">Practice Tasks</div>
         <div class="stat-desc">Hands-on coding exercises</div>
     </div>
