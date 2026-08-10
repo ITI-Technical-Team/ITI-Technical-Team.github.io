@@ -3,7 +3,7 @@ permalink: pretty
 plugins:
   - jekyll-remote-theme
 
-remote_theme: cs50/jekyll-theme-cs50@v3.4.5
+remote_theme: cs50/jekyll-theme-cs50
 
 title: ITI CS50
 
