@@ -54,12 +54,12 @@ make substring-extractor
 To test your code automatically with `check50`, run:
 
 ```bash
-check50 iti-technical-team/problemset/pset/lec/06/substring-extractor
+check50 iti-technical-team/problemset/pset/lec/6/substring-extractor
 ```
 
 ## Submit Your Code
 Make sure you are in the `substring-extractor` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/pset/lec/06/substring-extractor
+submit50 iti-technical-team/problemset/pset/lec/6/substring-extractor
 ```

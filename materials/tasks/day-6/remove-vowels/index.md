@@ -51,12 +51,12 @@ make remove-vowels
 To test your code automatically with `check50`, run:
 
 ```bash
-check50 iti-technical-team/problemset/pset/lec/06/remove-vowels
+check50 iti-technical-team/problemset/pset/lec/6/remove-vowels
 ```
 
 ## Submit Your Code
 Make sure you are in the `remove-vowels` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/pset/lec/06/remove-vowels
+submit50 iti-technical-team/problemset/pset/lec/6/remove-vowels
 ```

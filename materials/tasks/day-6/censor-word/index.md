@@ -43,12 +43,12 @@ make censor-word
 To test your code automatically with `check50`, run:
 
 ```bash
-check50 iti-technical-team/problemset/pset/lec/06/censor-word
+check50 iti-technical-team/problemset/pset/lec/6/censor-word
 ```
 
 ## Submit Your Code
 Make sure you are in the `censor-word` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/pset/lec/06/censor-word
+submit50 iti-technical-team/problemset/pset/lec/6/censor-word
 ```

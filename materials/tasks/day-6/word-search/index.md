@@ -49,12 +49,12 @@ make word-search
 To test your code automatically with `check50`, run:
 
 ```bash
-check50 iti-technical-team/problemset/pset/lec/06/word-search
+check50 iti-technical-team/problemset/pset/lec/6/word-search
 ```
 
 ## Submit Your Code
 Make sure you are in the `word-search` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/pset/lec/06/word-search
+submit50 iti-technical-team/problemset/pset/lec/6/word-search
 ```
