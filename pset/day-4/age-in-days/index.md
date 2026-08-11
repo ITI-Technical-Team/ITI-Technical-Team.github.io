@@ -2,7 +2,7 @@
 title: Age in Days
 ---
 
-# Age in Days
+# E. Age in Days
 
 ## Problem Setup
 - login to [CS50 IDE](https://cs50.dev)
@@ -47,12 +47,12 @@ make age-in-days
 To test your code automatically with `check50`, run:
 
 ```bash
-check50 iti-technical-team/problemset/pset/lec/4/age-in-days
+check50 iti-technical-team/problemset/pset/4/age-in-days
 ```
 
 ## Submit Your Code
 Make sure you are in the `age-in-days` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/pset/lec/4/age-in-days
+submit50 iti-technical-team/problemset/pset/4/age-in-days
 ```

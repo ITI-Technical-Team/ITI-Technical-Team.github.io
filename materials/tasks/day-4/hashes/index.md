@@ -2,7 +2,7 @@
 title: Hashes
 ---
 
-# A. Hashes
+# Hashes
 
 ## Problem Setup
 - login to [CS50 IDE](https://cs50.dev)
@@ -13,15 +13,15 @@ title: Hashes
 
 ## Problem
 
-Given an integer \\(n\\), you need to print \\(n\\) hashes.
+Given an integer \(n\), you need to print \(n\) hashes.
 
 ## Input
 
-The first line contains an integer \\(n\\) where \\(1 \\leq n \\leq 100\\) — the number of hashes to print.
+The first line contains an integer \(n\) where \(1 \leq n \leq 100\) — the number of hashes to print.
 
 ## Output
 
-Print \\(n\\) hashes.
+Print \(n\) hashes.
 
 ## Examples
 
@@ -56,7 +56,7 @@ Print \\(n\\) hashes.
 Make sure you are in the `hashes` directory, then run the following command:
 
 ```bash
-check50 iti-technical-team/problemset/pset/4/hashes
+check50 iti-technical-team/problemset/pset/lec/4/hashes
 ```
 
 ## Submit Your Code
@@ -64,5 +64,5 @@ check50 iti-technical-team/problemset/pset/4/hashes
 Make sure you are in the `hashes` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/pset/4/hashes
+submit50 iti-technical-team/problemset/pset/lec/4/hashes
 ```

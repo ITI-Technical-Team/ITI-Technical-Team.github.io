@@ -2,7 +2,7 @@
 title: Square of Hashes
 ---
 
-# Square of Hashes
+# A. Square of Hashes
 
 ## Problem Setup
 - login to [CS50 IDE](https://cs50.dev)
@@ -12,7 +12,7 @@ title: Square of Hashes
 - write `code square-hashes.cpp` to create a file called `square-hashes.cpp` and open it in the editor
 
 ## Problem
-Given a number **N**, print a square of hashes (`#`) of size **N** \\(\times\\) **N** (having **N** rows and **N** columns).
+Given a number **N**, print a square of hashes (`#`) of size **N** \(\times\) **N** (having **N** rows and **N** columns).
 
 ## Example
 
@@ -38,12 +38,12 @@ make square-hashes
 To test your code automatically with `check50`, run:
 
 ```bash
-check50 iti-technical-team/problemset/pset/lec/4/square-hashes
+check50 iti-technical-team/problemset/pset/4/square-hashes
 ```
 
 ## Submit Your Code
 Make sure you are in the `square-hashes` directory, then run the following command:
 
 ```bash
-submit50 iti-technical-team/problemset/pset/lec/4/square-hashes
+submit50 iti-technical-team/problemset/pset/4/square-hashes
 ```

@@ -23,10 +23,11 @@ title: Problem Sets
 * [Absolute]({{ "/pset/day-3/absolute" | relative_url }})
 
 ## [Day 4 – C++ Basics II]({{ "/pset/day-4" | relative_url }})
-* [Hashes]({{ "/pset/day-4/hashes" | relative_url }})
+* [Square of Hashes]({{ "/pset/day-4/square-hashes" | relative_url }})
 * [Summation]({{ "/pset/day-4/summation" | relative_url }})
 * [Numbers]({{ "/pset/day-4/numbers" | relative_url }})
 * [Triangle]({{ "/pset/day-4/triangle" | relative_url }})
+* [Age in Days]({{ "/pset/day-4/age-in-days" | relative_url }})
 
 ## [Day 5 – Arrays]({{ "/pset/day-5" | relative_url }})
 * [Print K-th Element]({{ "/pset/day-5/print-kth-element" | relative_url }})

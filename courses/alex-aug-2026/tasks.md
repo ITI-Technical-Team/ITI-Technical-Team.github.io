@@ -205,15 +205,15 @@ Here you can find the lecture-specific tasks and practice exercises for each day
         <h5 class="day-title">C++ Basics II</h5>
       </div>
       <div class="d-flex align-items-center">
-        <span class="text-secondary small me-2">5 Tasks</span>
+        <span class="text-secondary small me-2">4 Tasks</span>
         <i class="fas fa-chevron-down text-secondary collapse-chevron"></i>
       </div>
     </div>
     <div class="collapse w-100 task-list-container mt-3" id="collapse-day-4">
       <ul class="list-unstyled mb-0">
         <li class="mb-2">
-          <a href="{{ '/materials/tasks/day-4/square-hashes' | relative_url }}" class="task-link">
-            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 1: Square of Hashes
+          <a href="{{ '/materials/tasks/day-4/hashes' | relative_url }}" class="task-link">
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 1: Hashes
           </a>
         </li>
         <li class="mb-2">
@@ -227,13 +227,8 @@ Here you can find the lecture-specific tasks and practice exercises for each day
           </a>
         </li>
         <li class="mb-2">
-          <a href="{{ '/materials/tasks/day-4/age-in-days' | relative_url }}" class="task-link">
-            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 4: Age in Days
-          </a>
-        </li>
-        <li class="mb-2">
           <a href="{{ '/materials/tasks/day-4/even-odd' | relative_url }}" class="task-link">
-            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 5: Even or Odd Function
+            <i class="fas fa-tasks me-2" style="color: #e74c3c;"></i>Task 4: Even or Odd Function
           </a>
         </li>
       </ul>
