@@ -13,13 +13,13 @@ title: Replacement
 
 ## Problem
 
-You are given an array of \\(n\\) numbers and two indexes \\(a\\) and \\(b\\).
+You are given an array of \\(n\\) numbers and two positions \\(a\\) and \\(b\\).
 
-You have to replace the number of index \\(a\\) with the number of index \\(b\\), and vice versa.
+You have to swap the number at position \\(a\\) with the number at position \\(b\\).
 
 ## Input
 
-First line contains three numbers \\(n\\), \\(a\\), \\(b\\) where \\(1 \\leq n \\leq 10^4\\) and \\(1 \\leq a, b \\leq n\\) — the size of the array and the indexes you have to do a replacement to it.
+First line contains three numbers \\(n\\), \\(a\\), \\(b\\) where \\(1 \\leq n \\leq 10^4\\) and \\(1 \\leq a, b \\leq n\\) — the size of the array and the positions (1-based) you have to swap.
 
 Second line contains \\(n\\) numbers \\(a_i\\) where \\(1 \\leq a_i \\leq 10^4\\), the numbers of the array.
 
